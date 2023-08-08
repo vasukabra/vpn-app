@@ -1,0 +1,330 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.openVpnDemo"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:7:5-77
+13-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:7:22-74
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:8:5-68
+14-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:8:22-65
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:27:5-81
+15-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:27:22-78
+16
+17    <application
+18        android:name="android.app.Application"
+18-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:12:9-42
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.6.0] C:\Users\sanka\.gradle\caches\transforms-3\ebb6dedb35de5516b149bb45fcf307a5\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:14:9-43
+21        android:label="OpenVPN Demo" >
+21-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:13:9-37
+22        <activity
+22-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:17:9-34:20
+23            android:name="com.example.openVpnDemo.MainActivity"
+23-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:18:13-41
+24            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+24-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:22:13-163
+25            android:exported="true"
+25-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:20:13-36
+26            android:hardwareAccelerated="true"
+26-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:23:13-47
+27            android:launchMode="singleTop"
+27-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:19:13-43
+28            android:theme="@style/LaunchTheme"
+28-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:21:13-47
+29            android:windowSoftInputMode="adjustResize" >
+29-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:24:13-55
+30            <meta-data
+30-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:26:13-28:54
+31                android:name="io.flutter.embedding.android.NormalTheme"
+31-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:27:15-70
+32                android:resource="@style/NormalTheme" />
+32-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:28:15-52
+33
+34            <intent-filter>
+34-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:30:13-33:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:31:17-68
+35-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:31:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:32:17-76
+37-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:32:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <meta-data
+41-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:36:9-38:33
+42            android:name="flutterEmbedding"
+42-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:37:13-44
+43            android:value="2" />
+43-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:38:13-30
+44
+45        <activity
+45-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:40:9-46:52
+46            android:name="de.blinkt.openvpn.DisconnectVPNActivity"
+46-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:41:13-67
+47            android:excludeFromRecents="true"
+47-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:42:13-46
+48            android:exported="false"
+48-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:44:13-37
+49            android:noHistory="true"
+49-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:43:13-37
+50            android:taskAffinity=".DisconnectVPN"
+50-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:45:13-50
+51            android:theme="@style/blinkt.dialog" />
+51-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:46:13-49
+52
+53        <service
+53-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:48:9-55:19
+54            android:name="de.blinkt.openvpn.core.OpenVPNService"
+54-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:49:13-65
+55            android:exported="true"
+55-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:50:13-36
+56            android:permission="android.permission.BIND_VPN_SERVICE" >
+56-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:51:13-69
+57            <intent-filter>
+57-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:52:13-54:29
+58                <action android:name="android.net.VpnService" />
+58-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:53:17-65
+58-->C:\Users\sanka\Desktop\vpnapp\vpn-basic-project\android\app\src\main\AndroidManifest.xml:53:25-62
+59            </intent-filter>
+60        </service>
+61
+62        <provider
+62-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:31:9-39:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:32:13-67
+64            android:authorities="com.example.openVpnDemo.androidx-startup"
+64-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:33:13-68
+65            android:exported="false" >
+65-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:34:13-37
+66            <meta-data
+66-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
+67                android:name="androidx.work.WorkManagerInitializer"
+67-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
+68                android:value="androidx.startup" />
+68-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
+69        </provider>
+70
+71        <service
+71-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
+72            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+72-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
+73            android:directBootAware="false"
+73-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
+74            android:enabled="@bool/enable_system_alarm_service_default"
+74-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
+75            android:exported="false" />
+75-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
+76        <service
+76-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
+77            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+77-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
+78            android:directBootAware="false"
+78-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
+79            android:enabled="@bool/enable_system_job_service_default"
+79-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
+80            android:exported="true"
+80-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
+81            android:permission="android.permission.BIND_JOB_SERVICE" />
+81-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
+82        <service
+82-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
+83            android:name="androidx.work.impl.foreground.SystemForegroundService"
+83-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
+84            android:directBootAware="false"
+84-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
+85            android:enabled="@bool/enable_system_foreground_service_default"
+85-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
+86            android:exported="false" />
+86-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
+87
+88        <receiver
+88-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
+89            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+89-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
+90            android:directBootAware="false"
+90-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
+91            android:enabled="true"
+91-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
+92            android:exported="false" />
+92-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
+93        <receiver
+93-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
+94            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+94-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
+95            android:directBootAware="false"
+95-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
+96            android:enabled="false"
+96-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
+97            android:exported="false" >
+97-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
+98            <intent-filter>
+98-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
+99                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+99-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
+99-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
+100                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+100-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
+100-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
+101            </intent-filter>
+102        </receiver>
+103        <receiver
+103-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
+104            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+104-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
+105            android:directBootAware="false"
+105-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
+106            android:enabled="false"
+106-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+107            android:exported="false" >
+107-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
+108            <intent-filter>
+108-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
+109                <action android:name="android.intent.action.BATTERY_OKAY" />
+109-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
+109-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
+110                <action android:name="android.intent.action.BATTERY_LOW" />
+110-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
+110-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
+111            </intent-filter>
+112        </receiver>
+113        <receiver
+113-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
+114            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+114-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
+115            android:directBootAware="false"
+115-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
+116            android:enabled="false"
+116-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
+117            android:exported="false" >
+117-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
+118            <intent-filter>
+118-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
+119                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+119-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
+119-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
+120                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+120-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
+120-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
+121            </intent-filter>
+122        </receiver>
+123        <receiver
+123-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
+124            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+124-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
+125            android:directBootAware="false"
+125-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
+126            android:enabled="false"
+126-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
+127            android:exported="false" >
+127-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
+128            <intent-filter>
+128-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
+129                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+129-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
+129-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
+130            </intent-filter>
+131        </receiver>
+132        <receiver
+132-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
+133            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+133-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
+134            android:directBootAware="false"
+134-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
+135            android:enabled="false"
+135-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
+136            android:exported="false" >
+136-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+137            <intent-filter>
+137-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
+138                <action android:name="android.intent.action.BOOT_COMPLETED" />
+138-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
+138-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
+139                <action android:name="android.intent.action.TIME_SET" />
+139-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
+139-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
+140                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+140-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
+140-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
+141            </intent-filter>
+142        </receiver>
+143        <receiver
+143-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
+144            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+144-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
+145            android:directBootAware="false"
+145-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
+146            android:enabled="@bool/enable_system_alarm_service_default"
+146-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
+147            android:exported="false" >
+147-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
+148            <intent-filter>
+148-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
+149                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+149-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
+149-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
+150            </intent-filter>
+151        </receiver>
+152        <receiver
+152-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
+153            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+153-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
+154            android:directBootAware="false"
+154-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
+155            android:enabled="true"
+155-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
+156            android:exported="true"
+156-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
+157            android:permission="android.permission.DUMP" >
+157-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
+158            <intent-filter>
+158-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
+159                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+159-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
+159-->[androidx.work:work-runtime:2.7.0] C:\Users\sanka\.gradle\caches\transforms-3\b38e0226e989a8adc95dbf375beb3f53\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
+160            </intent-filter>
+161        </receiver>
+162
+163        <uses-library
+163-->[androidx.window:window:1.0.0-beta04] C:\Users\sanka\.gradle\caches\transforms-3\61b33f2924a77068c54611bc82ba4f17\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+164            android:name="androidx.window.extensions"
+164-->[androidx.window:window:1.0.0-beta04] C:\Users\sanka\.gradle\caches\transforms-3\61b33f2924a77068c54611bc82ba4f17\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+165            android:required="false" />
+165-->[androidx.window:window:1.0.0-beta04] C:\Users\sanka\.gradle\caches\transforms-3\61b33f2924a77068c54611bc82ba4f17\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+166        <uses-library
+166-->[androidx.window:window:1.0.0-beta04] C:\Users\sanka\.gradle\caches\transforms-3\61b33f2924a77068c54611bc82ba4f17\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+167            android:name="androidx.window.sidecar"
+167-->[androidx.window:window:1.0.0-beta04] C:\Users\sanka\.gradle\caches\transforms-3\61b33f2924a77068c54611bc82ba4f17\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+168            android:required="false" />
+168-->[androidx.window:window:1.0.0-beta04] C:\Users\sanka\.gradle\caches\transforms-3\61b33f2924a77068c54611bc82ba4f17\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+169
+170        <service
+170-->[androidx.room:room-runtime:2.2.5] C:\Users\sanka\.gradle\caches\transforms-3\aadd815245f84bbe1e256828b63a91e6\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+171            android:name="androidx.room.MultiInstanceInvalidationService"
+171-->[androidx.room:room-runtime:2.2.5] C:\Users\sanka\.gradle\caches\transforms-3\aadd815245f84bbe1e256828b63a91e6\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+172            android:directBootAware="true"
+172-->[androidx.room:room-runtime:2.2.5] C:\Users\sanka\.gradle\caches\transforms-3\aadd815245f84bbe1e256828b63a91e6\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+173            android:exported="false" />
+173-->[androidx.room:room-runtime:2.2.5] C:\Users\sanka\.gradle\caches\transforms-3\aadd815245f84bbe1e256828b63a91e6\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+174    </application>
+175
+176</manifest>

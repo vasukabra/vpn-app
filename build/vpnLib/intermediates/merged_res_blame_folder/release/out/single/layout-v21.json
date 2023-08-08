@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\sanka\\Desktop\\vpnapp\\vpn-basic-project\\build\\vpnLib\\intermediates\\merged_res\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\b00543169f48d141eb6863a70b72bdb1\\transformed\\core-1.1.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\sanka\\Desktop\\vpnapp\\vpn-basic-project\\build\\vpnLib\\intermediates\\merged_res\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\b00543169f48d141eb6863a70b72bdb1\\transformed\\core-1.1.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\sanka\\Desktop\\vpnapp\\vpn-basic-project\\build\\vpnLib\\intermediates\\merged_res\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\b00543169f48d141eb6863a70b72bdb1\\transformed\\core-1.1.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\sanka\\Desktop\\vpnapp\\vpn-basic-project\\build\\vpnLib\\intermediates\\merged_res\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\b00543169f48d141eb6863a70b72bdb1\\transformed\\core-1.1.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]

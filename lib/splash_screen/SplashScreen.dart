@@ -2,8 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:vpn_basic_project/constants/decoration.dart';
 import 'package:vpn_basic_project/screens/home_screen.dart';
 
@@ -17,7 +15,10 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     Timer.periodic(Duration(seconds: 3), (timer) {
-      Get.off(HomeScreen());
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => HomeScreen()),
+      );
     });
     super.initState();
   }
