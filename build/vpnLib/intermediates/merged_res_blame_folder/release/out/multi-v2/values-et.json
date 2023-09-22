@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\sanka\\Desktop\\vpnapp\\vpn-basic-project\\build\\vpnLib\\intermediates\\merged_res\\release\\values-et\\values-et.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\e20cfbb4ea9519f34d48138fe722b1b7\\transformed\\appcompat-1.1.0\\res\\values-et\\values-et.xml",
+                    "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\09e994926cac2ad25aed94075daa11bb\\transformed\\appcompat-1.1.0\\res\\values-et\\values-et.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\b00543169f48d141eb6863a70b72bdb1\\transformed\\core-1.1.0\\res\\values-et\\values-et.xml",
+                    "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\1f4373aa451db0bf18cb1ba7ce44237c\\transformed\\core-1.1.0\\res\\values-et\\values-et.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -36,7 +36,7 @@
             "outputFile": "C:\\Users\\sanka\\Desktop\\vpnapp\\vpn-basic-project\\build\\vpnLib\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-et\\values-et.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\e20cfbb4ea9519f34d48138fe722b1b7\\transformed\\appcompat-1.1.0\\res\\values-et\\values-et.xml",
+                    "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\09e994926cac2ad25aed94075daa11bb\\transformed\\appcompat-1.1.0\\res\\values-et\\values-et.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -46,7 +46,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\b00543169f48d141eb6863a70b72bdb1\\transformed\\core-1.1.0\\res\\values-et\\values-et.xml",
+                    "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\1f4373aa451db0bf18cb1ba7ce44237c\\transformed\\core-1.1.0\\res\\values-et\\values-et.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

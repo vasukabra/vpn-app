@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\sanka\\Desktop\\vpnapp\\vpn-basic-project\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\e20cfbb4ea9519f34d48138fe722b1b7\\transformed\\appcompat-1.1.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\ea543a8cf3e57ffc5f78fb760c4d4e98\\transformed\\appcompat-1.2.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

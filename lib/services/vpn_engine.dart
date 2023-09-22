@@ -1,8 +1,10 @@
 import 'dart:convert';
 import 'dart:developer';
+
 import 'package:flutter/services.dart';
-import '../models/vpn_status.dart';
+
 import '../models/vpn_config.dart';
+import '../models/vpn_status.dart';
 
 class VpnEngine {
   ///Channel to native

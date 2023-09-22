@@ -1,1 +1,10 @@
 const APP_NAME = "Flash VPN";
+ const String vpnConnected = "connected";
+ const String vpnDisconnected = "dissconnected";
+ const String vpnWaitConnection = "wait_connection";
+ const String vpnAuthenticating = "authenticating";
+ const String vpnReconnect = "reconnect";
+ const String vpnNoConnection = "no_connection";
+ const String vpnConnecting = "connecting";
+ const String vpnPrepare = "prepare";
+ const String vpnDenied = "denied";

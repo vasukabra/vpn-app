@@ -44,10 +44,319 @@
         <item>User/PW + Android</item>
         <item>External Auth Provider</item>
     </string-array>
+    <attr format="enum" name="animateCircleAngleTo">
+        <enum name="bestChoice" value="0"/>
+        <enum name="closest" value="1"/>
+        <enum name="clockwise" value="2"/>
+        <enum name="antiClockwise" value="3"/>
+        <enum name="constraint" value="4"/>
+    </attr>
+    <attr format="reference" name="animateRelativeTo"/>
+    <attr format="enum" name="arcMode">
+        <enum name="startVertical" value="0"/>
+        <enum name="startHorizontal" value="1"/>
+        <enum name="flip" value="2"/>
+    </attr>
+    <attr format="boolean" name="barrierAllowsGoneWidgets"/>
+    <attr format="enum" name="barrierDirection">
+        <enum name="left" value="0"/>
+        <enum name="right" value="1"/>
+        <enum name="top" value="2"/>
+        <enum name="bottom" value="3"/>
+        <enum name="start" value="5"/>
+        <enum name="end" value="6"/>
+    </attr>
+    <attr format="dimension" name="barrierMargin"/>
+    <attr format="dimension" name="borderRound"/>
+    <attr format="float" name="borderRoundPercent"/>
+    <attr format="boolean" name="chainUseRtl"/>
+    <attr format="dimension" name="circleRadius"/>
+    <attr format="string" name="circularflow_angles"/>
+    <attr format="float" name="circularflow_defaultAngle"/>
+    <attr format="dimension" name="circularflow_defaultRadius"/>
+    <attr format="string" name="circularflow_radiusInDP"/>
+    <attr format="reference" name="circularflow_viewCenter"/>
+    <attr format="reference" name="constraintSet"/>
+    <attr format="string" name="constraint_referenced_ids"/>
+    <attr format="string" name="constraint_referenced_tags"/>
+    <attr format="reference" name="content"/>
+    <attr format="enum" name="curveFit">
+        <enum name="spline" value="0"/>
+        <enum name="linear" value="1"/>
+    </attr>
+    <attr format="integer" name="defaultDuration"/>
+    <attr format="float" name="deltaPolarAngle"/>
+    <attr format="float" name="deltaPolarRadius"/>
+    <attr format="enum" name="dragDirection">
+        <enum name="dragUp" value="0"/>
+        <enum name="dragDown" value="1"/>
+        <enum name="dragLeft" value="2"/>
+        <enum name="dragRight" value="3"/>
+        <enum name="dragStart" value="4"/>
+        <enum name="dragEnd" value="5"/>
+        <enum name="dragClockwise" value="6"/>
+        <enum name="dragAnticlockwise" value="7"/>
+    </attr>
+    <attr format="enum" name="drawPath">
+        <enum name="none" value="0"/>
+        <enum name="path" value="1"/>
+        <enum name="pathRelative" value="2"/>
+        <enum name="deltaRelative" value="3"/>
+        <enum name="asConfigured" value="4"/>
+        <enum name="rectangles" value="5"/>
+    </attr>
     <attr format="reference" name="drawerArrowStyle"/>
+    <attr format="integer" name="duration"/>
+    <attr format="float" name="flow_firstHorizontalBias"/>
+    <attr format="enum" name="flow_firstHorizontalStyle">
+        <enum name="spread" value="0"/>
+        <enum name="spread_inside" value="1"/>
+        <enum name="packed" value="2"/>
+    </attr>
+    <attr format="float" name="flow_firstVerticalBias"/>
+    <attr format="enum" name="flow_firstVerticalStyle">
+        <enum name="spread" value="0"/>
+        <enum name="spread_inside" value="1"/>
+        <enum name="packed" value="2"/>
+    </attr>
+    <attr format="enum" name="flow_horizontalAlign">
+        <enum name="start" value="0"/>
+        <enum name="end" value="1"/>
+        <enum name="center" value="2"/>
+    </attr>
+    <attr format="float" name="flow_horizontalBias"/>
+    <attr format="dimension" name="flow_horizontalGap"/>
+    <attr format="enum" name="flow_horizontalStyle">
+        <enum name="spread" value="0"/>
+        <enum name="spread_inside" value="1"/>
+        <enum name="packed" value="2"/>
+    </attr>
+    <attr format="float" name="flow_lastHorizontalBias"/>
+    <attr format="enum" name="flow_lastHorizontalStyle">
+        <enum name="spread" value="0"/>
+        <enum name="spread_inside" value="1"/>
+        <enum name="packed" value="2"/>
+    </attr>
+    <attr format="float" name="flow_lastVerticalBias"/>
+    <attr format="enum" name="flow_lastVerticalStyle">
+        <enum name="spread" value="0"/>
+        <enum name="spread_inside" value="1"/>
+        <enum name="packed" value="2"/>
+    </attr>
+    <attr format="integer" name="flow_maxElementsWrap"/>
+    <attr format="dimension" name="flow_padding"/>
+    <attr format="enum" name="flow_verticalAlign">
+        <enum name="top" value="0"/>
+        <enum name="bottom" value="1"/>
+        <enum name="center" value="2"/>
+        <enum name="baseline" value="3"/>
+    </attr>
+    <attr format="float" name="flow_verticalBias"/>
+    <attr format="dimension" name="flow_verticalGap"/>
+    <attr format="enum" name="flow_verticalStyle">
+        <enum name="spread" value="0"/>
+        <enum name="spread_inside" value="1"/>
+        <enum name="packed" value="2"/>
+    </attr>
+    <attr format="enum" name="flow_wrapMode">
+        <enum name="none" value="0"/>
+        <enum name="chain" value="1"/>
+        <enum name="aligned" value="2"/>
+        <enum name="chain2" value="3"/>
+    </attr>
+    <attr format="integer" name="framePosition"/>
+    <attr format="boolean" name="guidelineUseRtl"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
+    <attr format="reference" name="layoutDescription"/>
+    <attr format="enum" name="layoutDuringTransition">
+        <enum name="ignoreRequest" value="0"/>
+        <enum name="honorRequest" value="1"/>
+        <enum name="callMeasure" value="2"/>
+
+    </attr>
+    <attr format="boolean" name="layout_constrainedHeight"/>
+    <attr format="boolean" name="layout_constrainedWidth"/>
+    <attr format="integer" name="layout_constraintBaseline_creator"/>
+    <attr format="reference|enum" name="layout_constraintBaseline_toBaselineOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="reference|enum" name="layout_constraintBaseline_toBottomOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="reference|enum" name="layout_constraintBaseline_toTopOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="integer" name="layout_constraintBottom_creator"/>
+    <attr format="reference|enum" name="layout_constraintBottom_toBottomOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="reference|enum" name="layout_constraintBottom_toTopOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="reference" name="layout_constraintCircle"/>
+    <attr format="float" name="layout_constraintCircleAngle"/>
+    <attr format="dimension" name="layout_constraintCircleRadius"/>
+    <attr format="string" name="layout_constraintDimensionRatio"/>
+    <attr format="reference|enum" name="layout_constraintEnd_toEndOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="reference|enum" name="layout_constraintEnd_toStartOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="dimension" name="layout_constraintGuide_begin"/>
+    <attr format="dimension" name="layout_constraintGuide_end"/>
+    <attr format="float" name="layout_constraintGuide_percent"/>
+    <attr format="dimension|enum|string" name="layout_constraintHeight">
+        <enum name="match_parent" value="-1"/>
+        <enum name="wrap_content" value="-2"/>
+        <enum name="match_constraint" value="-3"/>
+        <enum name="wrap_content_constrained" value="-4"/>
+    </attr>
+    <attr name="layout_constraintHeight_default">
+        <enum name="spread" value="0"/>
+        <enum name="wrap" value="1"/>
+        <enum name="percent" value="2"/>
+    </attr>
+    <attr format="dimension|enum" name="layout_constraintHeight_max">
+        <enum name="wrap" value="-2"/>
+    </attr>
+    <attr format="dimension|enum" name="layout_constraintHeight_min">
+        <enum name="wrap" value="-2"/>
+    </attr>
+    <attr format="float" name="layout_constraintHeight_percent"/>
+    <attr format="float" name="layout_constraintHorizontal_bias"/>
+    <attr format="enum" name="layout_constraintHorizontal_chainStyle">
+        <enum name="spread" value="0"/>
+        <enum name="spread_inside" value="1"/>
+        <enum name="packed" value="2"/>
+    </attr>
+    <attr format="float" name="layout_constraintHorizontal_weight"/>
+    <attr format="integer" name="layout_constraintLeft_creator"/>
+    <attr format="reference|enum" name="layout_constraintLeft_toLeftOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="reference|enum" name="layout_constraintLeft_toRightOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="integer" name="layout_constraintRight_creator"/>
+    <attr format="reference|enum" name="layout_constraintRight_toLeftOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="reference|enum" name="layout_constraintRight_toRightOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="reference|enum" name="layout_constraintStart_toEndOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="reference|enum" name="layout_constraintStart_toStartOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="string" name="layout_constraintTag"/>
+    <attr format="integer" name="layout_constraintTop_creator"/>
+    <attr format="reference|enum" name="layout_constraintTop_toBottomOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="reference|enum" name="layout_constraintTop_toTopOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="float" name="layout_constraintVertical_bias"/>
+    <attr format="enum" name="layout_constraintVertical_chainStyle">
+        <enum name="spread" value="0"/>
+        <enum name="spread_inside" value="1"/>
+        <enum name="packed" value="2"/>
+    </attr>
+    <attr format="float" name="layout_constraintVertical_weight"/>
+    <attr format="dimension|enum|string" name="layout_constraintWidth">
+        <enum name="match_parent" value="-1"/>
+        <enum name="wrap_content" value="-2"/>
+        <enum name="match_constraint" value="-3"/>
+        <enum name="wrap_content_constrained" value="-4"/>
+    </attr>
+    <attr name="layout_constraintWidth_default">
+        <enum name="spread" value="0"/>
+        <enum name="wrap" value="1"/>
+        <enum name="percent" value="2"/>
+    </attr>
+    <attr format="dimension|enum" name="layout_constraintWidth_max">
+        <enum name="wrap" value="-2"/>
+    </attr>
+    <attr format="dimension|enum" name="layout_constraintWidth_min">
+        <enum name="wrap" value="-2"/>
+    </attr>
+    <attr format="float" name="layout_constraintWidth_percent"/>
+    <attr format="dimension" name="layout_editor_absoluteX"/>
+    <attr format="dimension" name="layout_editor_absoluteY"/>
+    <attr format="dimension" name="layout_goneMarginBaseline"/>
+    <attr format="dimension" name="layout_goneMarginBottom"/>
+    <attr format="dimension" name="layout_goneMarginEnd"/>
+    <attr format="dimension" name="layout_goneMarginLeft"/>
+    <attr format="dimension" name="layout_goneMarginRight"/>
+    <attr format="dimension" name="layout_goneMarginStart"/>
+    <attr format="dimension" name="layout_goneMarginTop"/>
+    <attr format="dimension" name="layout_marginBaseline"/>
+    <attr name="layout_optimizationLevel">
+        <flag name="none" value="0"/>
+        <flag name="legacy" value="0"/>
+        <flag name="standard" value="257"/> <!-- direct, measure caches -->
+        <flag name="direct" value="1"/>
+        <flag name="barrier" value="2"/>
+        <flag name="chains" value="4"/>
+        <flag name="dimensions" value="8"/>
+        <flag name="ratio" value="16"/>
+        <flag name="groups" value="32"/>
+        <flag name="graph" value="64"/>
+        <flag name="graph_wrap" value="128"/>
+        <flag name="cache_measures" value="256"/>
+        <flag name="dependency_ordering" value="512"/>
+        <flag name="grouping" value="1024"/>
+    </attr>
+    <attr format="enum" name="layout_wrapBehaviorInParent">
+        <enum name="included" value="0"/>
+        <enum name="horizontal_only" value="1"/>
+        <enum name="vertical_only" value="2"/>
+        <enum name="skipped" value="3"/>
+    </attr>
+    <attr format="float" name="motionPathRotate"/>
+    <attr format="float" name="motionProgress"/>
+    <attr format="float" name="motionStagger"/>
+    <attr format="reference|string" name="motionTarget"/>
     <attr format="reference" name="nestedScrollViewStyle"/>
+    <attr format="enum" name="onStateTransition">
+        <enum name="actionDown" value="1"/>
+        <enum name="actionUp" value="2"/>
+        <enum name="actionDownUp" value="3"/>
+        <enum name="sharedValueSet" value="4"/>
+        <enum name="sharedValueUnset" value="5"/>
+    </attr>
+    <attr format="enum" name="pathMotionArc">
+        <enum name="none" value="0"/>
+        <enum name="startVertical" value="1"/>
+        <enum name="startHorizontal" value="2"/>
+        <enum name="flip" value="3"/>
+    </attr>
+    <attr format="float" name="path_percent"/>
+    <attr format="float" name="perpendicularPath_percent"/>
+    <attr format="reference|enum" name="pivotAnchor">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr name="placeholder_emptyVisibility">
+        <enum name="visible" value="0"/>
+        <enum name="invisible" value="4"/>
+        <enum name="gone" value="8"/>
+    </attr>
+    <attr format="reference" name="polarRelativeTo"/>
+    <attr format="string|reference|enum" name="quantizeMotionInterpolator">
+        <enum name="easeInOut" value="0"/>
+        <enum name="easeIn" value="1"/>
+        <enum name="easeOut" value="2"/>
+        <enum name="linear" value="3"/>
+        <enum name="bounce" value="4"/>
+        <enum name="overshoot" value="5"/>
+    </attr>
+    <attr format="float" name="quantizeMotionPhase"/>
+    <attr format="integer" name="quantizeMotionSteps"/>
+    <attr format="float" name="sizePercent"/>
     <attr format="enum" name="splitLayoutDirection">
         <enum name="locale" value="0"/>
         <enum name="ltr" value="1"/>
@@ -56,7 +365,56 @@
     <attr format="dimension" name="splitMinSmallestWidth"/>
     <attr format="dimension" name="splitMinWidth"/>
     <attr format="float" name="splitRatio"/>
+    <attr format="reference" name="targetId"/>
+    <attr format="color" name="textOutlineColor"/>
+    <attr format="dimension" name="textOutlineThickness"/>
     <attr format="string" name="title"/>
+    <attr format="reference" name="touchAnchorId"/>
+    <attr format="enum" name="touchAnchorSide">
+        <enum name="top" value="0"/>
+        <enum name="left" value="1"/>
+        <enum name="right" value="2"/>
+        <enum name="bottom" value="3"/>
+        <enum name="middle" value="4"/>
+        <enum name="start" value="5"/>
+        <enum name="end" value="6"/>
+    </attr>
+    <attr format="reference" name="transformPivotTarget"/>
+    <attr format="boolean" name="transitionDisable"/>
+    <attr format="string|enum" name="transitionEasing">
+        <enum name="standard" value="0"/>
+        <enum name="accelerate" value="1"/>
+        <enum name="decelerate" value="2"/>
+        <enum name="linear" value="3"/>
+    </attr>
+    <attr format="float" name="transitionPathRotate"/>
+    <attr format="enum" name="viewTransitionMode">
+        <enum name="currentState" value="0"/>
+        <enum name="allStates" value="1"/>
+        <!--        Operates independently of the rest of MotionLayout constraint set system -->
+        <enum name="noState" value="2"/>
+    </attr>
+    <attr format="enum" name="visibilityMode">
+        <enum name="normal" value="0"/>
+        <enum name="ignore" value="1"/>
+    </attr>
+    <attr format="integer" name="waveDecay"/>
+    <attr format="float|dimension" name="waveOffset"/>
+    <attr format="float" name="wavePeriod"/>
+    <attr format="float" name="wavePhase"/>
+    <attr format="enum|string" name="waveShape">
+        <enum name="sin" value="0"/>
+        <enum name="square" value="1"/>
+        <enum name="triangle" value="2"/>
+        <enum name="sawtooth" value="3"/>
+        <enum name="reverseSawtooth" value="4"/>
+        <enum name="cos" value="5"/>
+        <enum name="bounce" value="6"/>
+    </attr>
+    <attr format="enum" name="waveVariesBy">
+        <enum name="position" value="0"/>
+        <enum name="path" value="1"/>
+    </attr>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_allow_stacked_button_bar">false</bool>
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
@@ -66,7 +424,8 @@
     <bool name="logSildersAlwaysVisible">false</bool>
     <bool name="supportFileScheme">true</bool>
     <bool name="workmanager_test_configuration">false</bool>
-    <color name="abc_input_method_navigation_guard">@android:color/black</color>
+    <color name="abc_decor_view_status_guard">#ff000000</color>
+    <color name="abc_decor_view_status_guard_light">#ffffffff</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
@@ -86,8 +445,20 @@
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="browser_actions_bg_grey">#F5F5F5</color>
+    <color name="browser_actions_divider_color">#1E000000</color>
+    <color name="browser_actions_text_color">#DE000000</color>
+    <color name="browser_actions_title_color">#646464</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
     <color name="dataIn">#ff0000</color>
     <color name="dataOut">#0000ff</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
@@ -99,6 +470,16 @@
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
     <color name="gelb">#ffff00</color>
+    <color name="gnt_ad_green">#3A6728</color>
+    <color name="gnt_black">#000000</color>
+    <color name="gnt_blue">#4285f4</color>
+    <color name="gnt_gray">#808080</color>
+    <color name="gnt_green">#00FF00</color>
+    <color name="gnt_outline">#E0E0E0</color>
+    <color name="gnt_red">#FF0000</color>
+    <color name="gnt_test_background_color">#00F4F4F4</color>
+    <color name="gnt_test_background_color_2">#00A3A3A3</color>
+    <color name="gnt_white">#FFFFFF</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="ic_launcher_background">#C0FDD9</color>
@@ -220,6 +601,8 @@
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="add_button_margin">16dp</dimen>
     <dimen name="add_button_margin_topfab">96dp</dimen>
+    <dimen name="browser_actions_context_menu_max_width">500dp</dimen>
+    <dimen name="browser_actions_context_menu_min_padding">20dp</dimen>
     <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
     <dimen name="compat_button_inset_vertical_material">6dp</dimen>
     <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
@@ -232,6 +615,24 @@
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <dimen name="elevation_high">4dp</dimen>
     <dimen name="elevation_low">1dp</dimen>
+    <dimen name="gnt_ad_indicator_bar_height">30dp</dimen>
+    <dimen name="gnt_ad_indicator_bottom_margin">10dp</dimen>
+    <dimen name="gnt_ad_indicator_height">20dp</dimen>
+    <dimen name="gnt_ad_indicator_text_size">10sp</dimen>
+    <dimen name="gnt_ad_indicator_top_margin">0dp</dimen>
+    <dimen name="gnt_ad_indicator_width">25dp</dimen>
+    <dimen name="gnt_default_margin">10dp</dimen>
+    <item format="float" name="gnt_media_view_weight" type="dimen">1.0</item>
+    <dimen name="gnt_medium_cta_button_height">50dp</dimen>
+    <item format="float" name="gnt_medium_template_bottom_weight" type="dimen">0.4</item>
+    <item format="float" name="gnt_medium_template_top_weight" type="dimen">0.2</item>
+    <dimen name="gnt_no_margin">0dp</dimen>
+    <dimen name="gnt_no_size">0dp</dimen>
+    <dimen name="gnt_small_cta_button_height">30dp</dimen>
+    <dimen name="gnt_small_margin">5dp</dimen>
+    <item format="float" name="gnt_text_row_weight" type="dimen">0.25</item>
+    <dimen name="gnt_text_size_large">15sp</dimen>
+    <dimen name="gnt_text_size_small">12sp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
@@ -313,6 +714,7 @@
     <item name="home" type="id"/>
     <item name="line1" type="id"/>
     <item name="line3" type="id"/>
+    <item name="motion_base" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
@@ -333,10 +735,12 @@
     <item name="text2" type="id"/>
     <item name="title" type="id"/>
     <item name="up" type="id"/>
+    <item name="view_transition" type="id"/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="google_play_services_version">12451000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <plurals name="days_left">
         <item quantity="one">One day left</item>
@@ -483,6 +887,24 @@
     <string name="client_key_title">Client Certificate Key</string>
     <string name="client_no_certificate">No Certificate</string>
     <string name="client_pkcs12_title">PKCS12 File</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your device.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are not supported by your device.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="complete_dn">Complete DN</string>
     <string name="config_error_found">Error in Configuration</string>
     <string name="configuration_changed">Configuration changed</string>
@@ -498,6 +920,7 @@
     <string name="converted_profile_i">imported profile %d</string>
     <string name="copied_entry">Copied log entry to clip board</string>
     <string name="copy_of_profile">Copy of %s</string>
+    <string name="copy_toast_msg">Link copied to clipboard</string>
     <string name="copying_log_entries">Copying log entries</string>
     <string name="copyright_blinktgui" translatable="false">Copyright 2012–2018 Arne Schwabe &lt;arne@rfc2549.org>
     </string>
@@ -537,6 +960,7 @@
     <string name="debug_build">debug build</string>
     <string name="default_cipherlist_test" translatable="false">aes-256-gcm bf-cbc sha1</string>
     <string name="default_route_summary">Redirects all Traffic over the VPN</string>
+    <string name="default_web_client_id" translatable="false">277550852756-c4315dik19hkka68rr0jojl1921engk8.apps.googleusercontent.com</string>
     <string name="defaultport" translatable="false">1194</string>
     <string name="defaultserver" translatable="false">openvpn.uni-paderborn.de</string>
     <string name="defaultvpn">Default VPN</string>
@@ -575,6 +999,9 @@
     <string name="extauth_not_configured">External Authneticator not configured</string>
     <string name="external_authenticator">External Authenticator</string>
     <string name="extracahint">The CA cert is usually returned from the Android keystore. Specify a separate certificate if you get certificate verification errors.</string>
+    <string name="fallback_menu_item_copy_link">Copy link</string>
+    <string name="fallback_menu_item_open_in_browser">Open in browser</string>
+    <string name="fallback_menu_item_share_link">Share link</string>
     <string name="faq">FAQ</string>
     <string name="faq_android_clients">Multiple OpenVPN clients for Android exist. The most common ones are OpenVPN for Android (this client), OpenVPN Connect and OpenVPN Settings.&lt;p>The clients can be grouped into two groups: OpenVPN for Android and OpenVPN Connect use the official VPNService API (Android 4.0+) and require no root and OpenVPN Settings which uses root.&lt;p>OpenVPN for Android is an open source client and developed by Arne Schwabe.  It is targeted at more advanced users and offers many settings and the ability to import profiles from files and to configure/change profiles inside the app. The client is based on the community version of OpenVPN. It is based on the OpenVPN 2.x source code. This client can be seen as the semi officially client of the community. &lt;p>OpenVPN Connect is non open source client that is developed by OpenVPN Technologies, Inc. The client is indented to be general use client and more targeted at the average user and allows the import of OpenVPN profiles. This client is based on the OpenVPN C++ reimplementation of the OpenVPN protocol (This was required to allow OpenVPN Technologies, Inc to publish an iOS OpenVPN app). This client is the official client of the OpenVPN technologies &lt;p> OpenVPN Settings is the oldest of the clients and also a UI for the open source OpenVPN. In contrast to OpenVPN  for Android it requires root and does not use the VPNService API. It does not depend on Android 4.0+</string>
     <string name="faq_androids_clients_title">Differences between the OpenVPN Android clients</string>
@@ -611,10 +1038,15 @@
     <string name="float_title">Allow floating server</string>
     <string name="full_licenses">Full licenses</string>
     <string name="gbits_per_second">%.1f Gbit/s</string>
+    <string name="gcm_defaultSenderId" translatable="false">277550852756</string>
     <string name="generalsettings">Settings</string>
     <string name="generated_config">Generated Config</string>
     <string name="generated_config_summary">Shows the generated OpenVPN Configuration File</string>
     <string name="getproxy_error">Error getting proxy settings: %s</string>
+    <string name="google_api_key" translatable="false">AIzaSyAaEuRJRa5xx2WAvlpf9oeR7_eNkcVvxWg</string>
+    <string name="google_app_id" translatable="false">1:277550852756:android:cba5e3c09183d9367da281</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAaEuRJRa5xx2WAvlpf9oeR7_eNkcVvxWg</string>
+    <string name="google_storage_bucket" translatable="false">flashvpn-cf5c3.appspot.com</string>
     <string name="graph">Graph</string>
     <string name="help_translate">You can help translating by visiting https://crowdin.net/project/ics-openvpn/invite</string>
     <string name="hwkeychain">Hardware Keystore:</string>
@@ -690,6 +1122,15 @@
     <string name="mssfix_invalid_value">The MSS override value has to be a integer between 0 and 9000</string>
     <string name="mssfix_value_dialog">Announce to TCP sessions running over the tunnel that they should limit their send packet sizes such that after OpenVPN has encapsulated them, the resulting UDP packet size that OpenVPN sends to its peer will not exceed this number of bytes. (default is 1450)</string>
     <string name="mtu_invalid_value">The MTU override value has to be a integer between 64 and 9000</string>
+    <string description="This string appears within a window that describes an ad&apos;s contents. It indicates that the following text would be the body field (textual content) of the native ad. [CHAR_LIMIT=NONE]" name="native_body">
+    Body
+  </string>
+    <string description="This string appears within a window that describes an ad&apos;s contents. It indicates that the following text would be the headline field (title) of the native ad. [CHAR_LIMIT=NONE]" name="native_headline">
+    Headline
+  </string>
+    <string description="This string appears within a window that describes an ad&apos;s contents. It indicates that the following image / video would be the media view field (graphical content) of the native ad. [CHAR_LIMIT=NONE]" name="native_media_view">
+    Media View
+  </string>
     <string name="netchange">Reconnect on network change</string>
     <string name="netchange_summary">Turning this option on will force a reconnect if the network state is changed (e.g. WiFi to/from mobile)</string>
     <string name="netstatus">Network Status: %s</string>
@@ -710,10 +1151,30 @@
     <string name="notenoughdata">Not enough data</string>
     <string name="notifcation_title">OpenVPN - %s</string>
     <string name="notifcation_title_notconnect">Not connected</string>
+    <string description="Label on the button to go to settings. [CHAR_LIMIT=20]" name="notifications_permission_confirm">
+      Allow</string>
+    <string description="Label on the button to decline going to settings. [CHAR_LIMIT=20]" name="notifications_permission_decline">
+      Don\'t allow</string>
+    <string description="Body of the dialog presented when an ad wants to grant notifications permission. [CHAR_LIMIT=NONE]" name="notifications_permission_title">
+      Allow app to send you notifications?</string>
     <string name="nought_alwayson_warning"><![CDATA[If you did not get a VPN confirmation dialog, you have \"Always on VPN\" enabled for another app. In that case only that app is allowed to connect to a VPN. Check under Settings-> Networks more .. -> VPNS]]></string>
     <string name="novpn_selected">No VPN selected.</string>
     <string name="obscure">Obscure OpenVPN Settings. Normally not needed.</string>
     <string name="official_build">official build</string>
+    <string description="Text of the notification which directs the user to the landing page of the ad. [CHAR_LIMIT=NONE]" name="offline_notification_text">
+      Tap to open ad</string>
+    <string description="Title of the notification which directs the user to the landing page of the ad. [CHAR_LIMIT=NONE]" name="offline_notification_title">
+      View the ad you saved when you were offline</string>
+    <string description="Label on the button to opt in to a notification later when the user is back online. [CHAR_LIMIT=12]" name="offline_opt_in_confirm">
+      OK</string>
+    <string description="Confirmation text displayed when the user opts in to get a notification. [CHAR_LIMIT=NONE]" name="offline_opt_in_confirmation">
+      You\'ll get a notification with the link when you\'re back online</string>
+    <string description="Label on the button to decline to get a notification later when the user is back online. [CHAR_LIMIT=12]" name="offline_opt_in_decline">
+      No thanks</string>
+    <string description="Body of the dialog presented when an ad is clicked while offline. [CHAR_LIMIT=NONE]" name="offline_opt_in_message">
+      We\'ll send you a notification with a link to the advertiser site.</string>
+    <string description="Title of the dialog presented when an ad is clicked while offline. [CHAR_LIMIT=NONE]" name="offline_opt_in_title">
+      Open ad when you\'re back online.</string>
     <string name="onbootrestart">Connect on boot</string>
     <string name="onbootrestartsummary">OpenVPN will connect the specified VPN if it was active on system boot. Please read the connection warning FAQ before using this option on Android &lt; 5.0.</string>
     <string name="openssl" translatable="false">OpenSSL</string>
@@ -749,6 +1210,7 @@
     <string name="port">Server Port:</string>
     <string name="private_key_password">Private Key Password</string>
     <string name="profilename">Profile Name</string>
+    <string name="project_id" translatable="false">flashvpn-cf5c3</string>
     <string name="prompt">%1$s attempts to control %2$s</string>
     <string name="protocol">Protocol</string>
     <string name="proxy">Proxy</string>
@@ -793,6 +1255,13 @@
     <string name="routes_info_incl">Routes: %1$s %2$s</string>
     <string name="routing">Routing</string>
     <string name="running_test">Running test…</string>
+    <string name="s1">Save image</string>
+    <string name="s2">"Allow Ad to store image in Picture gallery?"</string>
+    <string name="s3">Accept</string>
+    <string name="s4">Decline</string>
+    <string name="s5">Create calendar event</string>
+    <string name="s6">Allow Ad to create a calendar event?</string>
+    <string name="s7">Test Ad</string>
     <string name="samsung_broken">Even though Samsung phones are among the most selling Android phones, Samsung\'s firmware are also among the most buggy Android firmwares. The bugs are not limited to the VPN operation on these devices but many of them can be workarounded. In the following some of these bugs are described.\n\nDNS does not work unless the DNS server in the VPN range.\n\nOn many Samsung 5.x devices the allowed/disallowed apps feature does not work.\nOn Samsung 6.x VPN is reported not to work unless the VPN app is exempted from Powersave features.</string>
     <string name="samsung_broken_title">Samsung phones</string>
     <string name="save_password">Save Password</string>
@@ -914,6 +1383,9 @@
     <string name="vpnbehaviour">VPN behaviour</string>
     <string name="vpnselected">Currently selected VPN: \'%s\'</string>
     <string name="warn_no_dns">No DNS servers being used. Name resolution may not work. Consider setting custom DNS Servers. Please also note that Android will keep using your proxy settings specified for your mobile/Wi-Fi connection when no DNS servers are set.</string>
+    <string description="This string appears within a watermark on video ads for debugging. [CHAR_LIMIT=NONE]" name="watermark_label_prefix">
+    "AdMob - "
+  </string>
     <string name="weakmd">&lt;p>Starting with OpenSSL version 1.1, OpenSSL rejects weak signatures in certificates like
         MD5.&lt;/p>&lt;p>&lt;b>MD5 signatures are completely insecure and should not be used anymore.&lt;/b> MD5
         collisions can be created in &lt;a
@@ -1254,7 +1726,6 @@
         <item name="isLightTheme">true</item>
     </style>
     <style name="Base.V7.Theme.AppCompat" parent="Platform.AppCompat">
-        <item name="viewInflaterClass">androidx.appcompat.app.AppCompatViewInflater</item>
         <item name="windowNoTitle">false</item>
         <item name="windowActionBar">true</item>
         <item name="windowActionBarOverlay">false</item>
@@ -1451,8 +1922,6 @@
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
     <style name="Base.V7.Theme.AppCompat.Light" parent="Platform.AppCompat.Light">
-        <item name="viewInflaterClass">androidx.appcompat.app.AppCompatViewInflater</item>
-
         <item name="windowNoTitle">false</item>
         <item name="windowActionBar">true</item>
         <item name="windowActionBarOverlay">false</item>
@@ -2311,6 +2780,7 @@
     <style name="Theme.AppCompat.Dialog.MinWidth" parent="Base.Theme.AppCompat.Dialog.MinWidth"/>
     <style name="Theme.AppCompat.DialogWhenLarge" parent="Base.Theme.AppCompat.DialogWhenLarge">
     </style>
+    <style name="Theme.AppCompat.Empty" parent=""/>
     <style name="Theme.AppCompat.Light" parent="Base.Theme.AppCompat.Light"/>
     <style name="Theme.AppCompat.Light.DarkActionBar" parent="Base.Theme.AppCompat.Light.DarkActionBar"/>
     <style name="Theme.AppCompat.Light.Dialog" parent="Base.Theme.AppCompat.Light.Dialog"/>
@@ -2326,6 +2796,14 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+    <style name="Theme.IAPTheme" parent="android:Theme">
+<item name="android:windowIsTranslucent">true</item>
+<item name="android:windowBackground">@android:color/transparent</item>
+<item name="android:windowContentOverlay">@null</item>
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowIsFloating">true</item>
+<item name="android:backgroundDimEnabled">false</item>
+</style>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
@@ -2567,6 +3045,13 @@
         <!-- Whether the activity should always be expanded on launch. -->
         <attr format="boolean" name="alwaysExpand"/>
     </declare-styleable>
+    <declare-styleable name="AdsAttrs">
+<attr format="string" name="adSize"/>
+
+<attr format="string" name="adSizes"/>
+
+<attr format="string" name="adUnitId"/>
+</declare-styleable>
     <declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>
@@ -3172,6 +3657,24 @@
              shortcut id and not an arbitrary string. -->
         <attr format="boolean" name="shortcutMatchRequired"/>
     </declare-styleable>
+    <declare-styleable name="Carousel">
+        <attr format="reference" name="carousel_firstView"/>
+        <attr format="reference" name="carousel_previousState"/>
+        <attr format="reference" name="carousel_nextState"/>
+        <attr format="boolean" name="carousel_infinite"/>
+        <attr format="reference" name="carousel_forwardTransition"/>
+        <attr format="reference" name="carousel_backwardTransition"/>
+        <attr format="float" name="carousel_touchUp_dampeningFactor"/>
+        <attr format="enum" name="carousel_touchUpMode">
+            <enum name="immediateStop" value="1"/>
+            <enum name="carryVelocity" value="2"/>
+        </attr>
+        <attr format="float" name="carousel_touchUp_velocityThreshold"/>
+        <attr format="enum" name="carousel_emptyViewsBehavior">
+            <enum name="invisible" value="4"/>
+            <enum name="gone" value="8"/>
+        </attr>
+    </declare-styleable>
     <declare-styleable name="ColorStateListItem">
         <!-- Base color for this state. -->
         <attr name="android:color"/>
@@ -3206,6 +3709,665 @@
                  result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
+    </declare-styleable>
+    <declare-styleable name="Constraint">
+        <attr name="android:orientation"/>
+        <attr name="android:id"/>
+
+        <!-- Controls the initial visibility of the view.  -->
+        <attr name="android:visibility"/>
+        <attr name="visibilityMode"/>
+
+        <!-- alpha property of the view, as a value between 0 (completely transparent) and 1
+             (completely opaque). -->
+        <attr name="android:alpha"/>
+
+        <!-- base z depth of the view. -->
+        <attr name="android:elevation"/>
+
+        <!-- rotation of the view, in degrees. -->
+        <attr name="android:rotation"/>
+
+        <!-- rotation of the view around the x axis, in degrees. -->
+        <attr name="android:rotationX"/>
+
+        <!-- rotation of the view around the y axis, in degrees. -->
+        <attr name="android:rotationY"/>
+
+        <!-- scale of the view in the x direction. -->
+        <attr name="android:scaleX"/>
+
+        <!-- scale of the view in the y direction. -->
+        <attr name="android:scaleY"/>
+        <attr name="pivotAnchor"/>
+
+        <attr name="android:transformPivotX"/>
+        <attr name="android:transformPivotY"/>
+        <attr name="transformPivotTarget"/>
+
+        <!-- translation in x of the view. This value is added post-layout to the left
+             property of the view, which is set by its layout. -->
+        <attr name="android:translationX"/>
+        <!-- translation in y of the view. This value is added post-layout to the top
+             property of the view, which is set by its layout. -->
+        <attr name="android:translationY"/>
+        <!-- translation in z of the view. This value is added to its elevation. -->
+        <attr name="android:translationZ"/>
+        <!-- Specifies the basic width of the view.  This is a required attribute
+             for any view inside of a containing layout manager.  Its value may
+             be a dimension (such as "12dip") for a constant width or one of
+             the special constants. -->
+        <attr name="android:layout_width"/>
+        <!-- Specifies the basic height of the view.  This is a required attribute
+             for any view inside of a containing layout manager.  Its value may
+             be a dimension (such as "12dip") for a constant height or one of
+             the special constants. -->
+        <attr name="android:layout_height"/>
+        <!--  Specifies extra space on the start side of this view.
+              This space is outside this view's bounds.
+              Margin values should be positive.-->
+        <attr name="layout_constraintWidth"/>
+        <attr name="layout_constraintHeight"/>
+        <attr name="android:layout_marginStart"/>
+        <!--  Specifies extra space on the bottom side of this view.
+              This space is outside this view's bounds.
+              Margin values should be positive.-->
+        <attr name="android:layout_marginBottom"/>
+        <!--  Specifies extra space on the top side of this view.
+              This space is outside this view's bounds.
+              Margin values should be positive.-->
+        <attr name="android:layout_marginTop"/>
+        <!--  Specifies extra space on the end side of this view.
+              This space is outside this view's bounds.
+              Margin values should be positive.-->
+        <attr name="android:layout_marginEnd"/>
+        <!--  Specifies extra space on the left side of this view.
+              This space is outside this view's bounds.
+              Margin values should be positive. -->
+        <attr name="android:layout_marginLeft"/>
+        <!--  Specifies extra space on the right side of this view.
+              This space is outside this view's bounds.
+              Margin values should be positive.-->
+        <attr name="android:layout_marginRight"/>
+
+        <attr name="layout_constraintCircle"/>
+        <attr name="layout_constraintCircleRadius"/>
+        <attr name="layout_constraintCircleAngle"/>
+
+        <attr name="layout_constraintGuide_begin"/>
+        <attr name="layout_constraintGuide_end"/>
+        <attr name="layout_constraintGuide_percent"/>
+        <attr name="guidelineUseRtl"/>
+        <attr name="layout_constraintLeft_toLeftOf"/>
+        <attr name="layout_constraintLeft_toRightOf"/>
+        <attr name="layout_constraintRight_toLeftOf"/>
+        <attr name="layout_constraintRight_toRightOf"/>
+        <attr name="layout_constraintTop_toTopOf"/>
+        <attr name="layout_constraintTop_toBottomOf"/>
+        <attr name="layout_constraintBottom_toTopOf"/>
+        <attr name="layout_constraintBottom_toBottomOf"/>
+        <attr name="layout_constraintBaseline_toBaselineOf"/>
+        <attr name="layout_constraintBaseline_toTopOf"/>
+        <attr name="layout_constraintBaseline_toBottomOf"/>
+        <attr name="layout_constraintStart_toEndOf"/>
+        <attr name="layout_constraintStart_toStartOf"/>
+        <attr name="layout_constraintEnd_toStartOf"/>
+        <attr name="layout_constraintEnd_toEndOf"/>
+        <attr name="layout_goneMarginLeft"/>
+        <attr name="layout_goneMarginTop"/>
+        <attr name="layout_goneMarginRight"/>
+        <attr name="layout_goneMarginBottom"/>
+        <attr name="layout_goneMarginStart"/>
+        <attr name="layout_goneMarginEnd"/>
+        <attr name="layout_goneMarginBaseline"/>
+        <attr name="layout_marginBaseline"/>
+        <attr name="layout_constrainedWidth"/>
+        <attr name="layout_constrainedHeight"/>
+        <attr name="layout_constraintHorizontal_bias"/>
+        <attr name="layout_constraintVertical_bias"/>
+        <attr name="layout_constraintWidth_default"/>
+        <attr name="layout_constraintHeight_default"/>
+        <attr name="layout_constraintWidth_min"/>
+        <attr name="layout_constraintWidth_max"/>
+        <attr name="layout_constraintWidth_percent"/>
+        <attr name="layout_constraintHeight_min"/>
+        <attr name="layout_constraintHeight_max"/>
+        <attr name="layout_constraintHeight_percent"/>
+        <attr name="layout_constraintLeft_creator"/>
+        <attr name="layout_constraintTop_creator"/>
+        <attr name="layout_constraintRight_creator"/>
+        <attr name="layout_constraintBottom_creator"/>
+        <attr name="layout_constraintBaseline_creator"/>
+        <attr name="layout_constraintDimensionRatio"/>
+        <attr name="layout_constraintHorizontal_weight"/>
+        <attr name="layout_constraintVertical_weight"/>
+        <attr name="layout_constraintHorizontal_chainStyle"/>
+        <attr name="layout_constraintVertical_chainStyle"/>
+        <attr name="layout_editor_absoluteX"/>
+        <attr name="layout_editor_absoluteY"/>
+        <attr name="layout_wrapBehaviorInParent"/>
+
+        <attr name="barrierDirection"/>
+        <attr name="barrierMargin"/>
+        <attr name="constraint_referenced_ids"/>
+        <attr name="constraint_referenced_tags"/>
+
+        <attr name="android:maxHeight"/>
+        <attr name="android:maxWidth"/>
+        <attr name="android:minHeight"/>
+        <attr name="android:minWidth"/>
+        <attr name="barrierAllowsGoneWidgets"/>
+        <attr name="chainUseRtl"/>
+
+        <attr name="flow_horizontalStyle"/>
+        <attr name="flow_verticalStyle"/>
+        <attr name="flow_verticalAlign"/>
+        <attr name="flow_horizontalAlign"/>
+        <attr name="flow_verticalBias"/>
+        <attr name="flow_horizontalBias"/>
+        <attr name="flow_wrapMode"/>
+        <attr name="flow_maxElementsWrap"/>
+        <attr name="flow_horizontalGap"/>
+        <attr name="flow_verticalGap"/>
+        <!--        <attr name="flow_horizontalSeparator" />-->
+        <!--        <attr name="flow_verticalSeparator" />-->
+
+        <attr name="flow_firstHorizontalStyle"/>
+        <attr name="flow_firstVerticalStyle"/>
+        <attr name="flow_firstHorizontalBias"/>
+        <attr name="flow_firstVerticalBias"/>
+
+        <attr name="flow_lastHorizontalStyle"/>
+        <attr name="flow_lastVerticalStyle"/>
+        <attr name="flow_lastHorizontalBias"/>
+        <attr name="flow_lastVerticalBias"/>
+
+        <attr name="animateRelativeTo"/>
+        <attr name="animateCircleAngleTo"/>
+        <attr name="transitionEasing"/>
+        <attr name="pathMotionArc"/>
+        <attr name="polarRelativeTo"/>
+        <attr name="transitionPathRotate"/>
+        <attr name="drawPath"/>
+        <attr name="motionProgress"/>
+        <attr name="layout_constraintTag"/>
+        <attr name="motionStagger"/>
+        <attr name="quantizeMotionSteps"/>
+        <attr name="quantizeMotionPhase"/>
+        <attr name="quantizeMotionInterpolator"/>
+    </declare-styleable>
+    <declare-styleable name="ConstraintLayout_Layout">
+        <attr name="android:orientation"/>
+        <attr name="android:minWidth"/>
+        <attr name="android:minHeight"/>
+        <attr name="android:maxWidth"/>
+        <attr name="android:maxHeight"/>
+        <attr name="android:visibility"/>
+        <attr name="android:elevation"/>
+
+        <attr name="layout_optimizationLevel"/>
+        <attr name="layoutDescription"/>
+
+        <attr name="constraintSet"/>
+        <attr name="barrierDirection"/>
+        <attr name="barrierAllowsGoneWidgets"/>
+        <attr name="barrierMargin"/>
+        <attr name="constraint_referenced_ids"/>
+        <attr name="constraint_referenced_tags"/>
+        <attr name="chainUseRtl"/>
+
+        <attr name="flow_horizontalStyle"/>
+        <attr name="flow_verticalStyle"/>
+        <attr name="flow_wrapMode"/>
+        <attr name="flow_maxElementsWrap"/>
+        <attr name="flow_horizontalGap"/>
+        <attr name="flow_verticalGap"/>
+        <attr name="android:padding"/>
+        <attr name="android:paddingTop"/>
+        <attr name="android:paddingBottom"/>
+        <attr name="android:paddingLeft"/>
+        <attr name="android:paddingRight"/>
+        <attr name="android:paddingStart"/>
+        <attr name="android:paddingEnd"/>
+        <attr name="flow_verticalAlign"/>
+        <attr name="flow_horizontalAlign"/>
+        <attr name="flow_verticalBias"/>
+        <attr name="flow_horizontalBias"/>
+        <!--        <attr name="flow_horizontalSeparator" />-->
+        <!--        <attr name="flow_verticalSeparator" />-->
+
+        <attr name="flow_firstHorizontalStyle"/>
+        <attr name="flow_firstVerticalStyle"/>
+        <attr name="flow_firstHorizontalBias"/>
+        <attr name="flow_firstVerticalBias"/>
+
+        <attr name="flow_lastHorizontalStyle"/>
+        <attr name="flow_lastVerticalStyle"/>
+        <attr name="flow_lastHorizontalBias"/>
+        <attr name="flow_lastVerticalBias"/>
+
+        <attr name="circularflow_radiusInDP"/>
+        <attr name="circularflow_angles"/>
+        <attr name="circularflow_viewCenter"/>
+        <attr name="circularflow_defaultRadius"/>
+        <attr name="circularflow_defaultAngle"/>
+
+
+        <attr name="layout_constraintCircle"/>
+        <attr name="layout_constraintCircleRadius"/>
+        <attr name="layout_constraintCircleAngle"/>
+
+        <attr name="layout_constraintGuide_begin"/>
+        <attr name="layout_constraintGuide_end"/>
+        <attr name="layout_constraintGuide_percent"/>
+        <attr name="guidelineUseRtl"/>
+        <attr name="layout_constraintLeft_toLeftOf"/>
+        <attr name="layout_constraintLeft_toRightOf"/>
+        <attr name="layout_constraintRight_toLeftOf"/>
+        <attr name="layout_constraintRight_toRightOf"/>
+        <attr name="layout_constraintTop_toTopOf"/>
+        <attr name="layout_constraintTop_toBottomOf"/>
+        <attr name="layout_constraintBottom_toTopOf"/>
+        <attr name="layout_constraintBottom_toBottomOf"/>
+        <attr name="layout_constraintBaseline_toBaselineOf"/>
+        <attr name="layout_constraintBaseline_toTopOf"/>
+        <attr name="layout_constraintBaseline_toBottomOf"/>
+        <attr name="layout_constraintStart_toEndOf"/>
+        <attr name="layout_constraintStart_toStartOf"/>
+        <attr name="layout_constraintEnd_toStartOf"/>
+        <attr name="layout_constraintEnd_toEndOf"/>
+        <attr name="layout_goneMarginLeft"/>
+        <attr name="layout_goneMarginTop"/>
+        <attr name="layout_goneMarginRight"/>
+        <attr name="layout_goneMarginBottom"/>
+        <attr name="layout_goneMarginStart"/>
+        <attr name="layout_goneMarginEnd"/>
+        <attr name="layout_goneMarginBaseline"/>
+        <attr name="layout_marginBaseline"/>
+        <attr name="layout_constraintWidth"/>
+        <attr name="layout_constraintHeight"/>
+        <attr name="android:layout_width"/>
+        <attr name="android:layout_height"/>
+        <attr name="android:layout_margin"/>
+        <attr name="android:layout_marginHorizontal"/>
+        <attr name="android:layout_marginVertical"/>
+        <attr name="android:layout_marginLeft"/>
+        <attr name="android:layout_marginRight"/>
+        <attr name="android:layout_marginTop"/>
+        <attr name="android:layout_marginBottom"/>
+        <attr name="android:layout_marginStart"/>
+        <attr name="android:layout_marginEnd"/>
+        <attr name="layout_constrainedWidth"/>
+        <attr name="layout_constrainedHeight"/>
+        <attr name="layout_constraintHorizontal_bias"/>
+        <attr name="layout_constraintVertical_bias"/>
+        <attr name="layout_constraintWidth_default"/>
+        <attr name="layout_constraintHeight_default"/>
+        <attr name="layout_constraintWidth_min"/>
+        <attr name="layout_constraintWidth_max"/>
+        <attr name="layout_constraintWidth_percent"/>
+        <attr name="layout_constraintHeight_min"/>
+        <attr name="layout_constraintHeight_max"/>
+        <attr name="layout_constraintHeight_percent"/>
+        <attr name="layout_constraintLeft_creator"/>
+        <attr name="layout_constraintTop_creator"/>
+        <attr name="layout_constraintRight_creator"/>
+        <attr name="layout_constraintBottom_creator"/>
+        <attr name="layout_constraintBaseline_creator"/>
+        <attr name="layout_constraintDimensionRatio"/>
+        <attr name="layout_constraintHorizontal_weight"/>
+        <attr name="layout_constraintVertical_weight"/>
+        <attr name="layout_constraintHorizontal_chainStyle"/>
+        <attr name="layout_constraintVertical_chainStyle"/>
+        <attr name="layout_editor_absoluteX"/>
+        <attr name="layout_editor_absoluteY"/>
+        <attr name="layout_constraintTag"/>
+        <attr name="layout_wrapBehaviorInParent"/>
+    </declare-styleable>
+    <declare-styleable name="ConstraintLayout_ReactiveGuide">
+        <attr format="reference" name="reactiveGuide_valueId"/>
+        <attr format="boolean" name="reactiveGuide_animateChange"/>
+        <attr format="boolean" name="reactiveGuide_applyToAllConstraintSets"/>
+        <attr format="reference" name="reactiveGuide_applyToConstraintSet"/>
+    </declare-styleable>
+    <declare-styleable name="ConstraintLayout_placeholder">
+        <attr name="placeholder_emptyVisibility"/>
+        <attr name="content"/>
+    </declare-styleable>
+    <declare-styleable name="ConstraintOverride">
+        <attr name="android:orientation"/>
+        <attr name="android:id"/>
+        <attr name="motionTarget"/>
+
+        <!-- Controls the initial visibility of the view.  -->
+        <attr name="android:visibility"/>
+        <attr name="visibilityMode"/>
+
+        <!-- alpha property of the view, as a value between 0 (completely transparent) and 1
+             (completely opaque). -->
+        <attr name="android:alpha"/>
+
+        <!-- base z depth of the view. -->
+        <attr name="android:elevation"/>
+
+        <!-- rotation of the view, in degrees. -->
+        <attr name="android:rotation"/>
+
+        <!-- rotation of the view around the x axis, in degrees. -->
+        <attr name="android:rotationX"/>
+
+        <!-- rotation of the view around the y axis, in degrees. -->
+        <attr name="android:rotationY"/>
+
+        <!-- scale of the view in the x direction. -->
+        <attr name="android:scaleX"/>
+
+        <!-- scale of the view in the y direction. -->
+        <attr name="android:scaleY"/>
+        <attr name="pivotAnchor"/>
+
+        <attr name="android:transformPivotX"/>
+        <attr name="android:transformPivotY"/>
+        <attr name="transformPivotTarget"/>
+
+        <!-- translation in x of the view. This value is added post-layout to the left
+             property of the view, which is set by its layout. -->
+        <attr name="android:translationX"/>
+        <!-- translation in y of the view. This value is added post-layout to the top
+             property of the view, which is set by its layout. -->
+        <attr name="android:translationY"/>
+        <!-- translation in z of the view. This value is added to its elevation. -->
+        <attr name="android:translationZ"/>
+        <!-- Specifies the basic width of the view.  This is a required attribute
+             for any view inside of a containing layout manager.  Its value may
+             be a dimension (such as "12dip") for a constant width or one of
+             the special constants. -->
+        <attr name="android:layout_width"/>
+        <!-- Specifies the basic height of the view.  This is a required attribute
+             for any view inside of a containing layout manager.  Its value may
+             be a dimension (such as "12dip") for a constant height or one of
+             the special constants. -->
+        <attr name="android:layout_height"/>
+        <!--  Specifies extra space on the start side of this view.
+              This space is outside this view's bounds.
+              Margin values should be positive.-->
+        <attr name="layout_constraintWidth"/>
+        <attr name="layout_constraintHeight"/>
+        <attr name="android:layout_marginStart"/>
+        <!--  Specifies extra space on the bottom side of this view.
+              This space is outside this view's bounds.
+              Margin values should be positive.-->
+        <attr name="android:layout_marginBottom"/>
+        <!--  Specifies extra space on the top side of this view.
+              This space is outside this view's bounds.
+              Margin values should be positive.-->
+        <attr name="android:layout_marginTop"/>
+        <!--  Specifies extra space on the end side of this view.
+              This space is outside this view's bounds.
+              Margin values should be positive.-->
+        <attr name="android:layout_marginEnd"/>
+        <!--  Specifies extra space on the left side of this view.
+              This space is outside this view's bounds.
+              Margin values should be positive. -->
+        <attr name="android:layout_marginLeft"/>
+        <!--  Specifies extra space on the right side of this view.
+              This space is outside this view's bounds.
+              Margin values should be positive.-->
+        <attr name="android:layout_marginRight"/>
+
+        <attr name="layout_constraintCircleRadius"/>
+        <attr name="layout_constraintCircleAngle"/>
+
+        <attr name="layout_constraintGuide_begin"/>
+        <attr name="layout_constraintGuide_end"/>
+        <attr name="layout_constraintGuide_percent"/>
+        <attr name="guidelineUseRtl"/>
+
+        <attr name="layout_goneMarginLeft"/>
+        <attr name="layout_goneMarginTop"/>
+        <attr name="layout_goneMarginRight"/>
+        <attr name="layout_goneMarginBottom"/>
+        <attr name="layout_goneMarginStart"/>
+        <attr name="layout_goneMarginEnd"/>
+        <attr name="layout_goneMarginBaseline"/>
+        <attr name="layout_marginBaseline"/>
+        <attr name="layout_constrainedWidth"/>
+        <attr name="layout_constrainedHeight"/>
+        <attr name="layout_constraintHorizontal_bias"/>
+        <attr name="layout_constraintVertical_bias"/>
+        <attr name="layout_constraintWidth_default"/>
+        <attr name="layout_constraintHeight_default"/>
+        <attr name="layout_constraintWidth_min"/>
+        <attr name="layout_constraintWidth_max"/>
+        <attr name="layout_constraintWidth_percent"/>
+        <attr name="layout_constraintHeight_min"/>
+        <attr name="layout_constraintHeight_max"/>
+        <attr name="layout_constraintHeight_percent"/>
+        <attr name="layout_constraintLeft_creator"/>
+        <attr name="layout_constraintTop_creator"/>
+        <attr name="layout_constraintRight_creator"/>
+        <attr name="layout_constraintBottom_creator"/>
+        <attr name="layout_constraintBaseline_creator"/>
+        <attr name="layout_constraintDimensionRatio"/>
+        <attr name="layout_constraintHorizontal_weight"/>
+        <attr name="layout_constraintVertical_weight"/>
+        <attr name="layout_constraintHorizontal_chainStyle"/>
+        <attr name="layout_constraintVertical_chainStyle"/>
+        <attr name="layout_editor_absoluteX"/>
+        <attr name="layout_editor_absoluteY"/>
+        <attr name="layout_wrapBehaviorInParent"/>
+
+        <attr name="barrierDirection"/>
+        <attr name="barrierMargin"/>
+        <attr name="constraint_referenced_ids"/>
+        <attr name="android:maxHeight"/>
+        <attr name="android:maxWidth"/>
+        <attr name="android:minHeight"/>
+        <attr name="android:minWidth"/>
+        <attr name="barrierAllowsGoneWidgets"/>
+        <attr name="chainUseRtl"/>
+
+        <attr name="flow_horizontalStyle"/>
+        <attr name="flow_verticalStyle"/>
+        <attr name="flow_verticalAlign"/>
+        <attr name="flow_horizontalAlign"/>
+        <attr name="flow_verticalBias"/>
+        <attr name="flow_horizontalBias"/>
+        <attr name="flow_wrapMode"/>
+        <attr name="flow_maxElementsWrap"/>
+        <attr name="flow_horizontalGap"/>
+        <attr name="flow_verticalGap"/>
+        <!--        <attr name="flow_horizontalSeparator" />-->
+        <!--        <attr name="flow_verticalSeparator" />-->
+
+        <attr name="flow_firstHorizontalStyle"/>
+        <attr name="flow_firstVerticalStyle"/>
+        <attr name="flow_firstHorizontalBias"/>
+        <attr name="flow_firstVerticalBias"/>
+
+        <attr name="flow_lastHorizontalStyle"/>
+        <attr name="flow_lastVerticalStyle"/>
+        <attr name="flow_lastHorizontalBias"/>
+        <attr name="flow_lastVerticalBias"/>
+
+        <attr name="animateRelativeTo"/>
+        <attr name="animateCircleAngleTo"/>
+        <attr name="transitionEasing"/>
+        <attr name="pathMotionArc"/>
+        <attr name="polarRelativeTo"/>
+        <attr name="transitionPathRotate"/>
+        <attr name="drawPath"/>
+        <attr name="motionProgress"/>
+        <attr name="layout_constraintTag"/>
+        <attr name="motionStagger"/>
+        <attr name="quantizeMotionSteps"/>
+        <attr name="quantizeMotionPhase"/>
+        <attr name="quantizeMotionInterpolator"/>
+    </declare-styleable>
+    <declare-styleable name="ConstraintSet">
+        <attr format="reference" name="deriveConstraintsFrom"/>
+        <attr format="enum" name="constraintRotate">
+            <enum name="none" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="left" value="2"/>
+            <enum name="x_right" value="3"/>
+            <enum name="x_left" value="4"/>
+        </attr>
+        <attr name="android:orientation"/>
+        <attr name="android:id"/>
+        <attr name="android:visibility"/>
+        <attr name="android:alpha"/>
+        <attr name="android:elevation"/>
+        <attr name="android:rotation"/>
+        <attr name="android:rotationX"/>
+        <attr name="android:rotationY"/>
+        <attr name="android:scaleX"/>
+        <attr name="android:scaleY"/>
+        <attr name="pivotAnchor"/>
+        <attr name="android:pivotX"/>
+        <attr name="android:pivotY"/>
+        <attr name="android:transformPivotX"/>
+        <attr name="android:transformPivotY"/>
+        <attr name="android:translationX"/>
+        <attr name="android:translationY"/>
+        <attr name="android:translationZ"/>
+        <attr name="android:layout_width"/>
+        <!-- Specifies the basic height of the view.  This is a required attribute
+     for any view inside of a containing layout manager.  Its value may
+     be a dimension (such as "12dip") for a constant height or one of
+     the special constants. -->
+        <attr name="android:layout_height"/>
+        <!--  Specifies extra space on the start side of this view.
+      This space is outside this view's bounds.
+      Margin values should be positive.-->
+        <attr name="android:layout_marginStart"/>
+        <!--  Specifies extra space on the bottom side of this view.
+              This space is outside this view's bounds.
+              Margin values should be positive.-->
+        <attr name="android:layout_marginBottom"/>
+        <attr name="android:layout_marginTop"/>
+        <attr name="android:layout_marginEnd"/>
+        <attr name="android:layout_marginLeft"/>
+        <attr name="android:layout_marginRight"/>
+
+        <attr name="layout_constraintCircle"/>
+        <attr name="layout_constraintCircleRadius"/>
+        <attr name="layout_constraintCircleAngle"/>
+
+        <attr name="layout_constraintGuide_begin"/>
+        <attr name="layout_constraintGuide_end"/>
+        <attr name="layout_constraintGuide_percent"/>
+        <attr name="guidelineUseRtl"/>
+
+        <attr name="layout_constraintLeft_toLeftOf"/>
+        <attr name="layout_constraintLeft_toRightOf"/>
+        <attr name="layout_constraintRight_toLeftOf"/>
+        <attr name="layout_constraintRight_toRightOf"/>
+        <attr name="layout_constraintTop_toTopOf"/>
+        <attr name="layout_constraintTop_toBottomOf"/>
+        <attr name="layout_constraintBottom_toTopOf"/>
+        <attr name="layout_constraintBottom_toBottomOf"/>
+        <attr name="layout_constraintBaseline_toBaselineOf"/>
+        <attr name="layout_constraintBaseline_toTopOf"/>
+        <attr name="layout_constraintBaseline_toBottomOf"/>
+        <attr name="layout_constraintStart_toEndOf"/>
+        <attr name="layout_constraintStart_toStartOf"/>
+        <attr name="layout_constraintEnd_toStartOf"/>
+        <attr name="layout_constraintEnd_toEndOf"/>
+        <attr name="layout_goneMarginLeft"/>
+        <attr name="layout_goneMarginTop"/>
+        <attr name="layout_goneMarginRight"/>
+        <attr name="layout_goneMarginBottom"/>
+        <attr name="layout_goneMarginStart"/>
+        <attr name="layout_goneMarginEnd"/>
+        <attr name="layout_goneMarginBaseline"/>
+        <attr name="layout_marginBaseline"/>
+        <attr name="layout_constrainedWidth"/>
+        <attr name="layout_constrainedHeight"/>
+        <attr name="layout_constraintHorizontal_bias"/>
+        <attr name="layout_constraintVertical_bias"/>
+        <attr name="layout_constraintWidth_default"/>
+        <attr name="layout_constraintHeight_default"/>
+        <attr name="layout_constraintWidth_min"/>
+        <attr name="layout_constraintWidth_max"/>
+        <attr name="layout_constraintWidth_percent"/>
+        <attr name="layout_constraintHeight_min"/>
+        <attr name="layout_constraintHeight_max"/>
+        <attr name="layout_constraintHeight_percent"/>
+        <attr name="layout_constraintLeft_creator"/>
+        <attr name="layout_constraintTop_creator"/>
+        <attr name="layout_constraintRight_creator"/>
+        <attr name="layout_constraintBottom_creator"/>
+        <attr name="layout_constraintBaseline_creator"/>
+        <attr name="layout_constraintDimensionRatio"/>
+        <attr name="layout_constraintHorizontal_weight"/>
+        <attr name="layout_constraintVertical_weight"/>
+        <attr name="layout_constraintHorizontal_chainStyle"/>
+        <attr name="layout_constraintVertical_chainStyle"/>
+        <attr name="layout_editor_absoluteX"/>
+        <attr name="layout_editor_absoluteY"/>
+        <attr name="layout_wrapBehaviorInParent"/>
+
+        <attr name="barrierDirection"/>
+        <attr name="constraint_referenced_ids"/>
+        <attr name="constraint_referenced_tags"/>
+        <attr name="barrierMargin"/>
+        <attr name="android:maxHeight"/>
+        <attr name="android:maxWidth"/>
+        <attr name="android:minHeight"/>
+        <attr name="android:minWidth"/>
+        <attr name="barrierAllowsGoneWidgets"/>
+        <attr name="chainUseRtl"/>
+
+        <attr name="flow_horizontalStyle"/>
+        <attr name="flow_verticalStyle"/>
+        <attr name="flow_verticalAlign"/>
+        <attr name="flow_horizontalAlign"/>
+        <attr name="flow_verticalBias"/>
+        <attr name="flow_horizontalBias"/>
+        <attr name="flow_wrapMode"/>
+        <attr name="flow_maxElementsWrap"/>
+        <attr name="flow_horizontalGap"/>
+        <attr name="flow_verticalGap"/>
+        <!--        <attr name="flow_horizontalSeparator" />-->
+        <!--        <attr name="flow_verticalSeparator" />-->
+
+        <attr name="flow_firstHorizontalStyle"/>
+        <attr name="flow_firstVerticalStyle"/>
+        <attr name="flow_firstHorizontalBias"/>
+        <attr name="flow_firstVerticalBias"/>
+
+        <attr name="flow_lastHorizontalStyle"/>
+        <attr name="flow_lastVerticalStyle"/>
+        <attr name="flow_lastHorizontalBias"/>
+        <attr name="flow_lastVerticalBias"/>
+
+        <attr name="animateRelativeTo"/>
+        <attr name="animateCircleAngleTo"/>
+
+        <attr name="transitionEasing"/>
+        <attr name="pathMotionArc"/>
+        <attr name="polarRelativeTo"/>
+        <attr name="transitionPathRotate"/>
+        <attr name="motionStagger"/>
+        <attr name="quantizeMotionSteps"/>
+        <attr name="drawPath"/>
+        <attr name="motionProgress"/>
+        <attr name="layout_constraintTag"/>
+
+    </declare-styleable>
+    <declare-styleable name="CustomAttribute">
+        <attr format="string" name="attributeName"/>
+        <attr format="string" name="methodName"/>
+        <attr format="color" name="customColorValue"/>
+        <attr format="color" name="customColorDrawableValue"/>
+        <attr format="integer" name="customIntegerValue"/>
+        <attr format="float" name="customFloatValue"/>
+        <attr format="string" name="customStringValue"/>
+        <attr format="dimension" name="customDimension"/>
+        <attr format="dimension" name="customPixelDimension"/>
+        <attr format="boolean" name="customBoolean"/>
+        <attr format="reference" name="customReference"/>
     </declare-styleable>
     <declare-styleable name="DrawerArrowToggle">
         <!-- The drawing color for the bars -->
@@ -3355,6 +4517,238 @@
         <!-- The current color for the offset inside the gradient. -->
         <attr name="android:color"/>
     </declare-styleable>
+    <declare-styleable name="ImageFilterView">
+        <attr format="reference" name="blendSrc"/>
+        <attr format="reference" name="altSrc"/>
+        <attr format="float" name="saturation"/>
+        <attr format="float" name="brightness"/>
+        <attr format="float" name="warmth"/>
+        <attr format="float" name="contrast"/>
+        <attr format="float" name="crossfade"/>
+        <attr format="dimension" name="round"/>
+        <attr format="boolean" name="overlay"/>
+        <attr format="float" name="roundPercent"/>
+        <attr format="float" name="imagePanX"/>
+        <attr format="float" name="imagePanY"/>
+        <attr format="float" name="imageZoom"/>
+        <attr format="float" name="imageRotate"/>
+    </declare-styleable>
+    <declare-styleable name="KeyAttribute">
+        <attr name="framePosition"/>
+        <attr name="motionTarget"/>
+        <attr name="transitionEasing"/>
+        <attr name="curveFit"/>
+
+        <attr name="motionProgress"/>
+
+        <!-- interpolated -->
+        <attr name="android:alpha"/>
+        <attr name="android:elevation"/>
+        <attr name="android:rotation"/>
+        <attr name="android:rotationX"/>
+        <attr name="android:rotationY"/>
+        <attr name="android:transformPivotX"/>
+        <attr name="android:transformPivotY"/>
+        <attr name="transformPivotTarget"/>
+
+        <attr name="transitionPathRotate"/>
+        <attr name="android:scaleX"/>
+        <attr name="android:scaleY"/>
+        <attr name="android:translationX"/>
+        <attr name="android:translationY"/>
+        <attr name="android:translationZ"/>
+    </declare-styleable>
+    <declare-styleable name="KeyCycle">
+        <attr name="motionTarget"/>
+        <attr name="curveFit"/>
+        <attr name="framePosition"/>
+        <attr name="transitionEasing"/>
+        <attr name="motionProgress"/>
+        <attr name="waveShape"/>
+        <attr name="wavePhase"/>
+        <attr name="wavePeriod"/>
+        <attr name="waveOffset"/>
+        <attr name="waveVariesBy"/>
+        <attr name="transitionPathRotate"/>
+        <attr name="android:alpha"/>
+        <attr name="android:elevation"/>
+        <attr name="android:rotation"/>
+        <attr name="android:rotationX"/>
+        <attr name="android:rotationY"/>
+        <attr name="android:scaleX"/>
+        <attr name="android:scaleY"/>
+        <attr name="android:translationX"/>
+        <attr name="android:translationY"/>
+        <attr name="android:translationZ"/>
+    </declare-styleable>
+    <declare-styleable name="KeyFrame">
+
+    </declare-styleable>
+    <declare-styleable name="KeyFramesAcceleration">
+
+    </declare-styleable>
+    <declare-styleable name="KeyFramesVelocity">
+
+    </declare-styleable>
+    <declare-styleable name="KeyPosition">
+        <!-- How this keyframe's deviation for linear path is calculated. -->
+        <attr format="enum" name="keyPositionType">
+            <enum name="deltaRelative" value="0"/>
+            <enum name="pathRelative" value="1"/>
+            <enum name="parentRelative" value="2"/>
+        </attr>
+
+        <!--  Percent distance from start to end along X axis (deltaRelative)
+              or along the path in pathRelative. -->
+        <attr format="float" name="percentX"/>
+
+        <!-- Percent distance from start to end along Y axis (deltaRelative)
+             or perpendicular to the path in pathRelative. -->
+        <attr format="float" name="percentY"/>
+
+        <!-- Percent of change in the width. Note if the width does not change this has no effect.This overrides sizePercent. -->
+        <attr format="float" name="percentWidth"/>
+
+        <!-- Percent of change in the width. Note if the width does not change this has no effect.This overrides sizePercent. -->
+        <attr format="float" name="percentHeight"/>
+        <attr name="framePosition"/>
+        <attr name="motionTarget"/>
+        <attr name="transitionEasing"/>
+        <attr name="pathMotionArc"/>
+        <attr name="curveFit"/>
+        <attr name="drawPath"/>
+        <attr name="sizePercent"/>
+    </declare-styleable>
+    <declare-styleable name="KeyTimeCycle">
+        <attr name="framePosition"/>
+        <attr name="motionTarget"/>
+        <attr name="transitionEasing"/>
+        <attr name="curveFit"/>
+        <attr name="waveShape"/>
+        <attr name="wavePeriod"/>
+        <attr name="motionProgress"/>
+        <attr name="waveOffset"/>
+        <attr name="wavePhase"/>
+
+        <!--  The time in milliseconds before the wave decays to less than 1/256-->
+        <attr name="waveDecay"/>
+
+        <!-- interpolated -->
+        <attr name="android:alpha"/>
+        <attr name="android:elevation"/>
+        <attr name="android:rotation"/>
+        <attr name="android:rotationX"/>
+        <attr name="android:rotationY"/>
+        <attr name="transitionPathRotate"/>
+        <attr name="android:scaleX"/>
+        <attr name="android:scaleY"/>
+        <attr name="android:translationX"/>
+        <attr name="android:translationY"/>
+        <attr name="android:translationZ"/>
+    </declare-styleable>
+    <declare-styleable name="KeyTrigger">
+        <attr name="framePosition"/>
+        <attr name="motionTarget"/>
+        <attr format="reference" name="triggerReceiver"/>
+        <attr format="string" name="onNegativeCross"/>
+        <attr format="string" name="onPositiveCross"/>
+        <attr format="string" name="onCross"/>
+        <attr format="reference" name="viewTransitionOnNegativeCross"/>
+        <attr format="reference" name="viewTransitionOnPositiveCross"/>
+        <attr format="reference" name="viewTransitionOnCross"/>
+        <attr format="float" name="triggerSlack"/>
+        <!-- The id of this trigger use when a callback listens for triggers -->
+        <attr format="reference" name="triggerId"/>
+        <attr format="boolean" name="motion_postLayoutCollision"/>
+        <!-- Trigger if the motionTarget collides with the other motionTarget-->
+        <attr format="reference" name="motion_triggerOnCollision"/>
+    </declare-styleable>
+    <declare-styleable name="Layout">
+
+        <attr name="android:layout_width"/>
+        <attr name="android:layout_height"/>
+        <attr name="layout_constraintWidth"/>
+        <attr name="layout_constraintHeight"/>
+
+        <attr name="android:layout_marginStart"/>
+
+        <attr name="android:layout_marginBottom"/>
+
+        <attr name="android:layout_marginTop"/>
+
+        <attr name="android:layout_marginEnd"/>
+
+        <attr name="android:layout_marginLeft"/>
+
+        <attr name="android:layout_marginRight"/>
+
+        <attr name="layout_constraintCircle"/>
+        <attr name="layout_constraintCircleRadius"/>
+        <attr name="layout_constraintCircleAngle"/>
+        <attr name="layout_constraintGuide_begin"/>
+        <attr name="layout_constraintGuide_end"/>
+        <attr name="layout_constraintGuide_percent"/>
+        <attr name="guidelineUseRtl"/>
+        <attr name="layout_constraintLeft_toLeftOf"/>
+        <attr name="layout_constraintLeft_toRightOf"/>
+        <attr name="layout_constraintRight_toLeftOf"/>
+        <attr name="layout_constraintRight_toRightOf"/>
+        <attr name="layout_constraintTop_toTopOf"/>
+        <attr name="layout_constraintTop_toBottomOf"/>
+        <attr name="layout_constraintBottom_toTopOf"/>
+        <attr name="layout_constraintBottom_toBottomOf"/>
+        <attr name="layout_constraintBaseline_toBaselineOf"/>
+        <attr name="layout_constraintBaseline_toTopOf"/>
+        <attr name="layout_constraintBaseline_toBottomOf"/>
+        <attr name="layout_constraintStart_toEndOf"/>
+        <attr name="layout_constraintStart_toStartOf"/>
+        <attr name="layout_constraintEnd_toStartOf"/>
+        <attr name="layout_constraintEnd_toEndOf"/>
+        <attr name="layout_goneMarginLeft"/>
+        <attr name="layout_goneMarginTop"/>
+        <attr name="layout_goneMarginRight"/>
+        <attr name="layout_goneMarginBottom"/>
+        <attr name="layout_goneMarginStart"/>
+        <attr name="layout_goneMarginEnd"/>
+        <attr name="layout_goneMarginBaseline"/>
+        <attr name="layout_marginBaseline"/>
+        <attr name="layout_constrainedWidth"/>
+        <attr name="layout_constrainedHeight"/>
+        <attr name="layout_constraintHorizontal_bias"/>
+        <attr name="layout_constraintVertical_bias"/>
+        <attr name="layout_constraintWidth_default"/>
+        <attr name="layout_constraintHeight_default"/>
+        <attr name="layout_constraintWidth_min"/>
+        <attr name="layout_constraintWidth_max"/>
+        <attr name="android:orientation"/>
+        <attr name="layout_constraintWidth_percent"/>
+        <attr name="layout_constraintHeight_min"/>
+        <attr name="layout_constraintHeight_max"/>
+        <attr name="layout_constraintHeight_percent"/>
+        <attr name="layout_constraintLeft_creator"/>
+        <attr name="layout_constraintTop_creator"/>
+        <attr name="layout_constraintRight_creator"/>
+        <attr name="layout_constraintBottom_creator"/>
+        <attr name="layout_constraintBaseline_creator"/>
+        <attr name="layout_constraintDimensionRatio"/>
+        <attr name="layout_constraintHorizontal_weight"/>
+        <attr name="layout_constraintVertical_weight"/>
+        <attr name="layout_constraintHorizontal_chainStyle"/>
+        <attr name="layout_constraintVertical_chainStyle"/>
+        <attr name="layout_editor_absoluteX"/>
+        <attr name="layout_editor_absoluteY"/>
+        <attr name="layout_wrapBehaviorInParent"/>
+        <attr name="barrierDirection"/>
+        <attr name="barrierMargin"/>
+        <attr name="constraint_referenced_ids"/>
+        <attr name="constraint_referenced_tags"/>
+        <attr format="dimension" name="maxHeight"/>
+        <attr format="dimension" name="maxWidth"/>
+        <attr format="dimension" name="minHeight"/>
+        <attr format="dimension" name="minWidth"/>
+        <attr name="barrierAllowsGoneWidgets"/>
+        <attr name="chainUseRtl"/>
+    </declare-styleable>
     <declare-styleable name="LinearLayoutCompat">
         <!-- Should the layout be a column or a row?  Use "horizontal"
              for a row, "vertical" for a column.  The default is
@@ -3403,6 +4797,19 @@
         <!-- Amount of pixels by which the drop down should be offset horizontally. -->
         <attr name="android:dropDownHorizontalOffset"/>
     </declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr name="imageAspectRatioAdjust">
+<enum name="none" value="0"/>
+
+<enum name="adjust_width" value="1"/>
+
+<enum name="adjust_height" value="2"/>
+
+</attr>
+
+<attr format="float" name="imageAspectRatio"/>
+
+<attr format="boolean" name="circleCrop"/>
+</declare-styleable>
     <declare-styleable name="MenuGroup">
 
         <!-- The ID of the group. -->
@@ -3587,6 +4994,158 @@
         <!-- Drawable for the arrow icon indicating a particular item is a submenu. -->
         <attr format="reference" name="subMenuArrow"/>
     </declare-styleable>
+    <declare-styleable name="MockView">
+        <attr format="string" name="mock_label"/>
+        <attr format="color" name="mock_labelColor"/>
+        <attr format="color" name="mock_labelBackgroundColor"/>
+        <attr format="color" name="mock_diagonalsColor"/>
+        <attr format="boolean" name="mock_showDiagonals"/>
+        <attr format="boolean" name="mock_showLabel"/>
+    </declare-styleable>
+    <declare-styleable name="Motion">
+        <attr name="animateRelativeTo"/>
+        <attr name="animateCircleAngleTo"/>
+        <attr name="transitionEasing"/>
+        <attr name="pathMotionArc"/>
+        <attr name="motionPathRotate"/>
+        <attr name="motionStagger"/>
+        <attr name="drawPath"/>
+        <attr name="quantizeMotionSteps"/>
+        <attr name="quantizeMotionPhase"/>
+        <attr name="quantizeMotionInterpolator"/>
+
+    </declare-styleable>
+    <declare-styleable name="MotionEffect">
+        <attr format="integer" name="motionEffect_start"/>
+        <attr format="integer" name="motionEffect_end"/>
+        <attr format="dimension" name="motionEffect_translationX"/>
+        <attr format="dimension" name="motionEffect_translationY"/>
+        <attr format="float" name="motionEffect_alpha"/>
+        <attr format="reference" name="motionEffect_viewTransition"/>
+        <attr format="enum" name="motionEffect_move">
+            <enum name="auto" value="-1"/>
+            <enum name="north" value="0"/>
+            <enum name="south" value="1"/>
+            <enum name="east" value="2"/>
+            <enum name="west" value="3"/>
+        </attr>
+        <attr format="boolean" name="motionEffect_strict"/>
+    </declare-styleable>
+    <declare-styleable name="MotionHelper">
+        <attr format="boolean" name="onShow"/>
+        <attr format="boolean" name="onHide"/>
+    </declare-styleable>
+    <declare-styleable name="MotionLabel">
+        <attr name="android:text"/>
+        <attr name="android:textColor"/>
+        <attr name="android:textSize"/>
+        <attr name="android:fontFamily"/>
+        <attr name="android:gravity"/>
+        <attr format="float" name="textPanX"/>
+        <attr format="float" name="textPanY"/>
+        <attr name="android:typeface"/>
+        <attr name="android:shadowRadius"/>
+        <attr name="android:textStyle"/>
+        <attr name="borderRound"/>
+        <attr format="dimension" name="scaleFromTextSize"/>
+        <attr name="borderRoundPercent"/>
+        <attr name="textOutlineThickness"/>
+        <attr name="textOutlineColor"/>
+        <attr format="reference" name="textBackground"/>
+        <attr name="android:autoSizeTextType"/>
+        <attr format="dimension" name="textureWidth"/>
+        <attr format="dimension" name="textureHeight"/>
+        <attr format="integer" name="textureBlurFactor"/>
+        <attr format="float" name="textBackgroundPanX"/>
+        <attr format="float" name="textBackgroundPanY"/>
+        <attr format="float" name="textBackgroundZoom"/>
+        <attr format="float" name="textBackgroundRotate"/>
+        <attr format="enum" name="textureEffect">
+            <enum name="none" value="0"/>
+            <enum name="frost" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="MotionLayout">
+        <attr name="layoutDescription"/>
+        <attr format="reference" name="currentState"/>
+        <attr name="motionProgress"/>
+        <attr format="boolean" name="applyMotionScene"/>
+        <attr format="boolean" name="showPaths"/>
+        <attr format="enum" name="motionDebug">
+            <enum name="NO_DEBUG" value="0"/>
+            <enum name="SHOW_PROGRESS" value="1"/>
+            <enum name="SHOW_PATH" value="2"/>
+            <enum name="SHOW_ALL" value="3"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="MotionScene">
+        <attr name="defaultDuration"/>
+        <attr name="layoutDuringTransition"/>
+    </declare-styleable>
+    <declare-styleable name="MotionTelltales">
+        <attr format="enum" name="telltales_velocityMode">
+            <enum name="layout" value="0"/>
+            <enum name="postLayout" value="1"/>
+            <enum name="staticPostLayout" value="2"/>
+            <enum name="staticLayout" value="3"/>
+        </attr>
+        <attr format="color" name="telltales_tailColor"/>
+        <attr format="float" name="telltales_tailScale"/>
+    </declare-styleable>
+    <declare-styleable name="OnClick">
+        <attr name="targetId"/>
+        <attr name="clickAction">
+            <flag name="toggle" value="0x0011"/>
+            <flag name="transitionToEnd" value="0x0001"/>
+            <flag name="transitionToStart" value="0x0010"/>
+            <flag name="jumpToEnd" value="0x100"/>
+            <flag name="jumpToStart" value="0x1000"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="OnSwipe">
+        <attr format="float" name="dragScale"/>
+        <attr format="float" name="dragThreshold"/>
+        <attr format="enum" name="autoCompleteMode">
+            <enum name="continuousVelocity" value="0"/>
+            <enum name="spring" value="1"/>
+        </attr>
+        <attr format="float" name="maxVelocity"/>
+        <attr format="float" name="maxAcceleration"/>
+        <attr format="float" name="springMass"/>
+        <attr format="float" name="springStiffness"/>
+        <attr format="float" name="springDamping"/>
+        <attr format="float" name="springStopThreshold"/>
+        <attr format="flags" name="springBoundary">
+            <flag name="overshoot" value="0"/>
+            <flag name="bounceStart" value="1"/>
+            <flag name="bounceEnd" value="2"/>
+            <flag name="bounceBoth" value="3"/>
+        </attr>
+        <attr name="dragDirection"/>
+        <attr name="touchAnchorId"/>
+        <attr name="touchAnchorSide"/>
+        <attr format="reference" name="rotationCenterId"/>
+        <attr format="reference" name="touchRegionId"/>
+        <attr format="reference" name="limitBoundsTo"/>
+        <attr format="flags" name="nestedScrollFlags">
+            <flag name="none" value="0"/>
+            <flag name="disablePostScroll" value="1"/>
+            <flag name="disableScroll" value="2"/>
+            <flag name="supportScrollUp" value="4"/>
+        </attr>
+        <attr format="boolean" name="moveWhenScrollAtTop"/>
+        <attr format="enum" name="onTouchUp">
+            <enum name="autoComplete" value="0"/>
+            <enum name="autoCompleteToStart" value="1"/>
+            <enum name="autoCompleteToEnd" value="2"/>
+            <enum name="stop" value="3"/>
+            <enum name="decelerate" value="4"/>
+            <enum name="decelerateAndComplete" value="5"/>
+            <enum name="neverCompleteToStart" value="6"/>
+            <enum name="neverCompleteToEnd" value="7"/>
+        </attr>
+
+    </declare-styleable>
     <declare-styleable name="PagerSlidingTabStrip">
         <attr format="color" name="pstsIndicatorColor"/>
         <attr format="color" name="pstsUnderlineColor"/>
@@ -3623,6 +5182,19 @@
     <declare-styleable name="PopupWindowBackgroundState">
         <!-- State identifier indicating the popup will be above the anchor. -->
         <attr format="boolean" name="state_above_anchor"/>
+    </declare-styleable>
+    <declare-styleable name="PropertySet">
+        <!-- Controls the initial visibility of the view.  -->
+        <attr name="android:visibility"/>
+        <attr name="visibilityMode"/>
+
+        <!-- alpha property of the view, as a value between 0 (completely transparent) and 1
+             (completely opaque). -->
+        <attr name="android:alpha"/>
+
+        <!-- calls setProgress(float) on the view if the method exist -->
+        <attr name="motionProgress"/>
+        <attr name="layout_constraintTag"/>
     </declare-styleable>
     <declare-styleable name="RecycleListView">
         <!-- Bottom padding to use when no buttons are present. -->
@@ -3667,6 +5239,25 @@
         <attr format="reference" name="submitBackground"/>
         <attr name="android:focusable"/>
     </declare-styleable>
+    <declare-styleable name="SignInButton"><attr format="reference" name="buttonSize">
+<enum name="standard" value="0"/>
+
+<enum name="wide" value="1"/>
+
+<enum name="icon_only" value="2"/>
+
+</attr>
+<attr format="reference" name="colorScheme">
+<enum name="dark" value="0"/>
+
+<enum name="light" value="1"/>
+
+<enum name="auto" value="2"/>
+
+</attr>
+
+<attr format="reference|string" name="scopeUris"/>
+</declare-styleable>
     <declare-styleable name="Spinner">
         <!-- The prompt to display when the spinner's dialog is shown. -->
         <attr name="android:prompt"/>
@@ -3715,6 +5306,10 @@
         <attr name="splitMinSmallestWidth"/>
         <attr name="splitLayoutDirection"/>
     </declare-styleable>
+    <declare-styleable name="State">
+        <attr name="android:id"/>
+        <attr format="reference" name="constraints"/>
+    </declare-styleable>
     <declare-styleable name="StateListDrawable">
         <!-- Indicates whether the drawable should be initially visible. -->
         <attr name="android:visible"/>
@@ -3746,6 +5341,9 @@
         <!-- Reference to a drawable resource to use for the state. If not
              given, the drawable must be defined by the first child tag. -->
         <attr name="android:drawable"/>
+    </declare-styleable>
+    <declare-styleable name="StateSet">
+        <attr format="reference" name="defaultState"/>
     </declare-styleable>
     <declare-styleable name="SwitchCompat">
         <!-- Drawable to use as the "thumb" that switches back and forth. -->
@@ -3813,6 +5411,9 @@
         <!-- Whether to draw on/off text. -->
         <attr format="boolean" name="showText"/>
     </declare-styleable>
+    <declare-styleable name="TemplateView">
+    <attr format="reference" name="gnt_template_type"/>
+  </declare-styleable>
     <declare-styleable name="TextAppearance">
         <attr name="android:textSize"/>
         <attr name="android:textColor"/>
@@ -3836,6 +5437,22 @@
         <attr name="android:shadowRadius"/>
         <!-- OpenType font variation settings, available aftear api 26. -->
         <attr name="fontVariationSettings"/>
+    </declare-styleable>
+    <declare-styleable name="TextEffects">
+        <attr name="android:text"/>
+        <attr name="android:textSize"/>
+        <attr name="android:fontFamily"/>
+        <attr name="android:typeface"/>
+        <attr name="android:shadowColor"/>
+        <attr name="android:shadowDx"/>
+        <attr name="android:shadowDy"/>
+        <attr name="android:shadowRadius"/>
+        <attr name="android:textStyle"/>
+        <attr format="color" name="textFillColor"/>
+        <attr name="textOutlineThickness"/>
+        <attr name="textOutlineColor"/>
+        <attr name="borderRound"/>
+        <attr name="borderRoundPercent"/>
     </declare-styleable>
     <declare-styleable name="Toolbar">
         <attr format="reference" name="titleTextAppearance"/>
@@ -3906,6 +5523,89 @@
         <!-- Menu resource to inflate to be shown in the toolbar -->
         <attr format="reference" name="menu"/>
     </declare-styleable>
+    <declare-styleable name="Transform">
+        <!-- base z depth of the view. -->
+        <attr name="android:elevation"/>
+
+        <!-- rotation of the view, in degrees. -->
+        <attr name="android:rotation"/>
+
+        <!-- rotation of the view around the x axis, in degrees. -->
+        <attr name="android:rotationX"/>
+
+        <!-- rotation of the view around the y axis, in degrees. -->
+        <attr name="android:rotationY"/>
+
+        <!-- scale of the view in the x direction. -->
+        <attr name="android:scaleX"/>
+
+        <!-- scale of the view in the y direction. -->
+        <attr name="android:scaleY"/>
+
+        <!--  x location of the pivot point around which the view will rotate and scale.
+     This xml attribute sets the pivotX property of the View. -->
+        <attr name="android:transformPivotX"/>
+
+        <!--   y location of the pivot point around which the view will rotate and scale.
+             This xml attribute sets the pivotY property of the View. -->
+        <attr name="android:transformPivotY"/>
+
+        <attr name="transformPivotTarget"/>
+
+        <!-- translation in x of the view. This value is added post-layout to the left
+           property of the view, which is set by its layout. -->
+        <attr format="dimension" name="android:translationX"/>
+
+        <!-- translation in y of the view. This value is added post-layout to the top
+       property of the view, which is set by its layout. -->
+        <attr format="dimension" name="android:translationY"/>
+
+        <!-- translation in z of the view. This value is added to its elevation. -->
+        <attr format="dimension" name="android:translationZ"/>
+
+    </declare-styleable>
+    <declare-styleable name="Transition">
+        <attr name="android:id"/>
+        <attr format="reference" name="constraintSetStart"/>
+        <attr format="reference" name="constraintSetEnd"/>
+        <attr name="transitionDisable"/>
+        <attr name="layoutDuringTransition"/>
+
+        <attr name="pathMotionArc"/>
+        <attr format="enum" name="autoTransition">
+            <enum name="none" value="0"/>
+            <enum name="jumpToStart" value="1"/>
+            <enum name="jumpToEnd" value="2"/>
+            <enum name="animateToStart" value="3"/>
+            <enum name="animateToEnd" value="4"/>
+        </attr>
+        <attr format="string|reference|enum" name="motionInterpolator">
+            <enum name="easeInOut" value="0"/>
+            <enum name="easeIn" value="1"/>
+            <enum name="easeOut" value="2"/>
+            <enum name="linear" value="3"/>
+            <enum name="bounce" value="4"/>
+            <enum name="overshoot" value="5"/>
+            <enum name="anticipate" value="6"/>
+        </attr>
+
+        <attr name="duration"/>
+        <attr format="float" name="staggered"/>
+
+        <attr name="transitionFlags">
+            <flag name="none" value="0"/>
+            <flag name="beginOnFirstDraw" value="1"/>
+            <flag name="disableIntraAutoTransition" value="2"/>
+            <flag name="onInterceptTouchReturnSwipe" value="4"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="Variant">
+        <attr format="dimension" name="region_widthLessThan"/>
+        <attr format="dimension" name="region_widthMoreThan"/>
+        <attr format="dimension" name="region_heightLessThan"/>
+        <attr format="dimension" name="region_heightMoreThan"/>
+        <attr name="constraints"/>
+    </declare-styleable>
     <declare-styleable name="View">
         <!-- Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}. -->
         <attr format="dimension" name="paddingStart"/>
@@ -3959,5 +5659,25 @@
         <!-- Overrides the id of the inflated View with this value. -->
         <attr name="android:inflatedId"/>
         <attr name="android:id"/>
+    </declare-styleable>
+    <declare-styleable name="ViewTransition">
+        <attr name="android:id"/>
+        <attr name="motionTarget"/>
+        <attr name="viewTransitionMode"/>
+        <attr name="onStateTransition"/>
+        <attr name="duration"/>
+        <attr format="integer" name="upDuration"/>
+        <attr name="transitionDisable"/>
+        <attr name="pathMotionArc"/>
+        <attr name="motionInterpolator"/>
+        <attr format="reference" name="SharedValueId"/>
+        <attr format="integer" name="SharedValue"/>
+        <attr format="reference" name="setsTag"/>
+        <attr format="reference" name="clearsTag"/>
+        <attr format="reference" name="ifTagSet"/>
+        <attr format="reference" name="ifTagNotSet"/>
+    </declare-styleable>
+    <declare-styleable name="include">
+        <attr name="constraintSet"/>
     </declare-styleable>
 </resources>

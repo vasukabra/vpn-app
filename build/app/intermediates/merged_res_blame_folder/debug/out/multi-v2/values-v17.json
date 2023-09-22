@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\sanka\\Desktop\\vpnapp\\vpn-basic-project\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\e20cfbb4ea9519f34d48138fe722b1b7\\transformed\\appcompat-1.1.0\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\ea543a8cf3e57ffc5f78fb760c4d4e98\\transformed\\appcompat-1.2.0\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\sanka\\Desktop\\vpnapp\\vpn-basic-project\\build\\vpnLib\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v18\\values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\e20cfbb4ea9519f34d48138fe722b1b7\\transformed\\appcompat-1.1.0\\res\\values-v18\\values-v18.xml",
+                    "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\09e994926cac2ad25aed94075daa11bb\\transformed\\appcompat-1.1.0\\res\\values-v18\\values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -19,7 +19,7 @@
             "outputFile": "C:\\Users\\sanka\\Desktop\\vpnapp\\vpn-basic-project\\build\\vpnLib\\intermediates\\merged_res\\release\\values-v18\\values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\e20cfbb4ea9519f34d48138fe722b1b7\\transformed\\appcompat-1.1.0\\res\\values-v18\\values-v18.xml",
+                    "source": "C:\\Users\\sanka\\.gradle\\caches\\transforms-3\\09e994926cac2ad25aed94075daa11bb\\transformed\\appcompat-1.1.0\\res\\values-v18\\values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
